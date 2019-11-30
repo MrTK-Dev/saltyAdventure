@@ -4,18 +4,9 @@ using UnityEngine;
 
 public class Interactions : MonoBehaviour
 {
-    public GameObject ItemParent;
-    SpriteRenderer[] ItemList;
-
-    public GameObject NPCParent;
-    SpriteRenderer[] NPCList;
+    public List<GameObject> ParentList;
 
     public GameObject CollidingInteractable;
-
-    private void Start()
-    {
-        UpdateLists();
-    }
 
     void Update()
     {
@@ -36,12 +27,6 @@ public class Interactions : MonoBehaviour
             //Interactable.PlayerIsInteracting = true;
             interactable.Interact();
         }
-    }
-
-    void UpdateLists()
-    {
-        ItemList = ItemParent.GetComponentsInChildren<SpriteRenderer>();
-        NPCList = NPCParent.GetComponentsInChildren<SpriteRenderer>();
     }
 
     GameObject CheckInter()
@@ -70,36 +55,23 @@ public class Interactions : MonoBehaviour
 
         GameObject LoopLists(Vector2 reqPos)
         {
-            //Update Lists
-            UpdateLists();
-
             CollidingInteractable = null;
 
             //targeted tile
             Vector2 newVector = PlayerMovementController.instance.PlayerPosition + reqPos;
 
-            //Loop through Lists
-            for (int i = 0; i < ItemList.Length; i++)
+            //loop through parentlist
+            for (int i = 0; i < ParentList.Count; i++)
             {
-                //Itemlist
-                if (ItemList[i].transform.position == new Vector3(newVector.x, newVector.y, 0))
+                for (int j = 0; j < ParentList[i].GetComponentsInChildren<SpriteRenderer>().Length; j++)
                 {
-                    CollidingInteractable = ItemList[i].gameObject;
-                }
-            }
-
-            if (CollidingInteractable == null)
-            {
-                for (int i = 0; i < NPCList.Length; i++)
-                {
-                    //NPClist
-                    if (NPCList[i].transform.position == new Vector3(newVector.x, newVector.y, 0))
+                    if (ParentList[i].GetComponentsInChildren<SpriteRenderer>()[j].transform.position == new Vector3(newVector.x, newVector.y, 0))
                     {
-                        CollidingInteractable = NPCList[i].gameObject;
+                        CollidingInteractable = ParentList[i].GetComponentsInChildren<SpriteRenderer>()[j].gameObject;
+                        break;
                     }
                 }
             }
-
 
             return CollidingInteractable;
         }

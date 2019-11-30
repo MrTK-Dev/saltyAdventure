@@ -39,7 +39,8 @@ public class ItemPickUp : Interactable
 
         //set state
         PlayerStateManager.instance.setState(PlayerStateManager.PlayerState.Interacting);
-        //add Textfield
-        TextFieldController.GetComponent<TextFieldController>().AddText(TextToAdd);
+        //new Textfield
+        TextFieldController.GetComponent<TextField>().TriggerTextfield(new string[] {TextToAdd});
+
     }
 }
