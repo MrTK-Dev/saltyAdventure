@@ -39,3 +39,13 @@ public class A_InstantiateCubes : MonoBehaviour
         }
     }
 }
+
+
+//x * width + x * Abstand = 960
+//x * (width + Abstand) = 960
+//x * (10 + A) = 960
+//80 * (10 + A) = 960 | : 512
+//10 + A = 12
+
+//x = 80
+//A = 2

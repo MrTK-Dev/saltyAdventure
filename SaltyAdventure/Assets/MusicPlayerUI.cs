@@ -51,12 +51,30 @@ public class MusicPlayerUI : MonoBehaviour
 
     IEnumerator CoverFadeIn()
     {
+        isFading = true;
+
         for (int i = 0; i < 255; i++)
         {
-            CoverArt.GetComponent<Image>().ChangeAlpha2(i / 255f);
+            CoverArt.GetComponent<Image>().ChangeAlpha2((i + 1f) / 255f);
 
             yield return new WaitForSeconds(0.025f);
         }
+
+        isFading = false;
+    }
+
+    IEnumerator CoverFadeOut()
+    {
+        isFading = true;
+
+        for (int i = 0; i < 255; i++)
+        {
+            CoverArt.GetComponent<Image>().ChangeAlpha2((255f - i) / 255f);
+
+            yield return new WaitForSeconds(0.025f);
+        }
+
+        isFading = false;
     }
 
     IEnumerator AnimateText()
@@ -82,6 +100,7 @@ public class MusicPlayerUI : MonoBehaviour
 
     public bool isPressed;
     public bool isPaused;
+    public bool isFading;
 
     private void Update()
     {
@@ -90,6 +109,15 @@ public class MusicPlayerUI : MonoBehaviour
             if (!isPressed)
                 Progressbar.GetComponent<Slider>().value = audioSource.time;
         }
+
+        if (audioSource.time == ActiveTrack.FullTrack.length)
+            GetComponentInParent<MusicPlayer>().OnClickNext();
+
+        if (Progressbar.GetComponent<Slider>().value == Progressbar.GetComponent<Slider>().maxValue - 15)
+            StartCoroutine(CoverFadeOut());
+
+        //if (Progressbar.GetComponent<Slider>().value < Progressbar.GetComponent<Slider>().maxValue - 15 && !isFading)
+            //CoverArt.GetComponent<Image>().ChangeAlpha2(1f);
 
         Time.GetComponent<TextMeshProUGUI>().text = TimeFormat(Progressbar.GetComponent<Slider>().value) + " /\n" + TimeFormat(ActiveTrack.FullTrack.length);
 
