@@ -9,41 +9,31 @@ public class SelectionField : MonoBehaviour
 
     public GameObject Buttons;
 
-
-
     public void ActivateUI()
     {
         InstantiateSFText("Henri hat gepupst" + "\n" + "Waiting for an Input...");
 
-        Buttons.AddComponent<ButtonParent>().ActivateAll();
+        Buttons.GetComponent<ButtonParent>().ActivateAll();
+    }
+
+    public void AddMovesUI(List<BattleMove> newMoves)
+    {
+        ActivateUI();
+
+        Buttons.GetComponent<ButtonParent>().UpdateUI(newMoves);
     }
 
     public void DeActivateUI()
     {
         TextField.text = "";
 
-        Buttons.AddComponent<ButtonParent>().DeActivateAll();
+        Buttons.GetComponent<ButtonParent>().DeActivateAll();
     }
 
     public void InstantiateSFText(string Text)
     {
-        StartCoroutine(AnimateText());
+        StopAllCoroutines();
 
-        IEnumerator AnimateText()
-        {
-            for (int i = 0; i < (Text.Length + 1); i++)
-            {
-                TextField.text = Text.Substring(0, i);
-
-                if (Text.Substring(0, i).EndsWithMulti(new string[] { ".", "," }))  //Delay
-                {
-                    yield return new WaitForSeconds(0.1f);
-                }
-                else
-                {
-                    yield return new WaitForSeconds(0.05f);
-                }
-            }
-        }
+        StartCoroutine(TextField.TypeWriterEffect(Text));
     }
 }

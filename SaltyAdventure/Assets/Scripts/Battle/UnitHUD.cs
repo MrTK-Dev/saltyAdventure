@@ -11,4 +11,11 @@ public class UnitHUD : MonoBehaviour
     public GameObject Slider; 
 
     public Pokemon PKMN;
+
+    public List<BattleMove> Moves;
+
+    public void ResetHP()
+    {
+        PKMN.currentHP = PKMN.maxHP;
+    }
 }

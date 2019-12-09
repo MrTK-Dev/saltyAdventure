@@ -4,13 +4,16 @@ using UnityEngine;
 
 public static class StringExtensions
 {
-    public static bool EndsWithMulti(this string String, string[] Checks)
+    /// <summary>
+    /// Checks if the given String ends with one of the Strings in the given Array.
+    /// </summary>
+    public static bool EndsWithMulti(this string String, string[] StringsToCheck)
     {
         bool EndsWith = new bool();
 
-        for (int i = 0; i < Checks.Length; i++)
+        for (int i = 0; i < StringsToCheck.Length; i++)
         {
-            if (String.EndsWith(Checks[i]))
+            if (String.EndsWith(StringsToCheck[i]))
             {
                 EndsWith = true;
 

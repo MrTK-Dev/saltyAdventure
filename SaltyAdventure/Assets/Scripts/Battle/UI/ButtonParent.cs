@@ -26,4 +26,12 @@ public class ButtonParent : MonoBehaviour
             ButtonList[i].SetActive(false);
         }
     }
+
+    public void UpdateUI(List<BattleMove> newMoves)
+    {
+        for (int i = 0; i < newMoves.Count; i++)
+        {
+            ButtonList[i].GetComponent<BattleButton>().SetUI(newMoves[i]);
+        }
+    }
 }

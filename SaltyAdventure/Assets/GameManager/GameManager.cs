@@ -15,8 +15,5 @@ public class GameManager : MonoBehaviour
 
     #endregion
 
-    public string Formatting3Int(string Text2Format)
-    {
-        return string.Format("{0:###,###,###}", Text2Format);
-    }
+
 }
