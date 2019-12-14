@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52609d5d34f2c7a49b948dfc4b34e91c, type: 3}
+  m_Script: {fileID: 11500000, guid: 3de92cc003a59184e9773e5cbf4dda76, type: 3}
   m_Name: Timo
   m_EditorClassIdentifier: 
   Name: Timo
-  maxHP: 142
-  currentHP: 142
+  maxHP: 150
+  currentHP: 150
   Level: 42
-  Speed: 80
+  Speed: 55

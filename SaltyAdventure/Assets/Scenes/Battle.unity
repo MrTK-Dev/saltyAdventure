@@ -384,6 +384,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107576309}
   m_CullTransparentMesh: 0
+--- !u!1 &164981126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 164981127}
+  - component: {fileID: 164981128}
+  m_Layer: 0
+  m_Name: TestPokemon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &164981127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164981126}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &164981128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164981126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4ff838f53493844f97beaa016ff7db7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Kind: {fileID: 0}
 --- !u!1 &352410006
 GameObject:
   m_ObjectHideFlags: 0
@@ -2080,6 +2125,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 35a79b2dc5414ed42b0b7b8dc696a143,
         type: 2}
+    - target: {fileID: 1424315883, guid: e2d6da64565c9874aa385e4859ab426b, type: 3}
+      propertyPath: PKMN
+      value: 
+      objectReference: {fileID: 11400000, guid: 93c2170431b1c3143a59ca4095be4913,
+        type: 2}
     - target: {fileID: 1527106459, guid: e2d6da64565c9874aa385e4859ab426b, type: 3}
       propertyPath: FillImg
       value: 
@@ -2581,80 +2631,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1752686803}
   m_CullTransparentMesh: 0
---- !u!1 &1835052329
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1835052330}
-  - component: {fileID: 1835052333}
-  - component: {fileID: 1835052332}
-  - component: {fileID: 1835052331}
-  m_Layer: 0
-  m_Name: Pokemon
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1835052330
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1835052329}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1835052331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1835052329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7c51949cff4f4b45b141bcd47fe6d7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ActiveAbility: {fileID: 0}
---- !u!114 &1835052332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1835052329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8473f425cb203a44e88f2c7bb7a59852, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: 
-  Type_1: 0
-  Type_2: 0
-  Abilities: []
---- !u!114 &1835052333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1835052329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ee0cb8018df5894faa31e2e5ddd0d2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1896439609
 GameObject:
   m_ObjectHideFlags: 0
@@ -2950,16 +2926,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: -3
       objectReference: {fileID: 0}
-    - target: {fileID: 1249387261251111243, guid: e2d6da64565c9874aa385e4859ab426b,
-        type: 3}
-      propertyPath: m_Text
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1249387261187318895, guid: e2d6da64565c9874aa385e4859ab426b,
-        type: 3}
-      propertyPath: m_Text
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1424315883, guid: e2d6da64565c9874aa385e4859ab426b, type: 3}
       propertyPath: Moves.Array.size
       value: 2
@@ -2993,6 +2959,16 @@ PrefabInstance:
       propertyPath: FillImg
       value: 
       objectReference: {fileID: 459125047}
+    - target: {fileID: 1249387261251111243, guid: e2d6da64565c9874aa385e4859ab426b,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1249387261187318895, guid: e2d6da64565c9874aa385e4859ab426b,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2d6da64565c9874aa385e4859ab426b, type: 3}
 --- !u!224 &1899229834 stripped

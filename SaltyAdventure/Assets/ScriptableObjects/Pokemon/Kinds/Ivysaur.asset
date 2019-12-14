@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52609d5d34f2c7a49b948dfc4b34e91c, type: 3}
+  m_Name: Ivysaur
+  m_EditorClassIdentifier: 
+  KindName: Ivysaur
+  Type_0: 9
+  Type_1: 13
+  Stats:
+    HPStat: 60
+    AttackStat: 62
+    DefenceStat: 63
+    SpAttackStat: 80
+    SpDefenceStat: 80
+    SpeedStat: 60
+  canEvolve: 1
+  Evo_LvL: 32
+  E_Kind: {fileID: 11400000, guid: 8b16dfcedad4ee74e95fa1d8020b315e, type: 2}
