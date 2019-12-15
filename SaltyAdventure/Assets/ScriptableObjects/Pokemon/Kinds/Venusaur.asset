@@ -12,16 +12,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52609d5d34f2c7a49b948dfc4b34e91c, type: 3}
   m_Name: Venusaur
   m_EditorClassIdentifier: 
-  KindName: Venusaur
-  Type_0: 9
-  Type_1: 13
-  Stats:
-    HPStat: 80
-    AttackStat: 82
-    DefenceStat: 83
-    SpAttackStat: 100
-    SpDefenceStat: 100
-    SpeedStat: 80
-  canEvolve: 0
-  Evo_LvL: 0
-  E_Kind: {fileID: 0}
+  GeneralInformation:
+    KindName: 
+    Icon: {fileID: -5668190286943779030, guid: 9029fe1adcd84ae4993cf1a720afbea0, type: 3}
+    IconShiny: {fileID: 0}
+    TypePrimus: 0
+    TypeSecundus: 0
+  PokedexEntry:
+    Index: 0
+    Description: 
+  BaseStats:
+    HPStat: 0
+    AttackStat: 0
+    DefenceStat: 0
+    SpAttackStat: 0
+    SpDefenceStat: 0
+    SpeedStat: 0
+  Evolution:
+    canEvolve: 0
+    Evo_LvL: 0
+    E_Kind: {fileID: 0}
+  Moves:
+    Lvl: []
+    LvlUP: 
+    TM: []
+  Breeding:
+    hasGender: 0
+    MaleRatio: 0
+    CatchRate: 0
+    YieldExp: 0
+    YieldEV:
+      HP: 0
+      Att: 0
+      Def: 0
+      SAt: 0
+      SDe: 0
+      Sp: 0
+    LvlRate: 0
+    HatchTime: 0
+    EggGroups: 

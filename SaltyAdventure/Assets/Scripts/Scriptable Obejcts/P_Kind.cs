@@ -85,7 +85,6 @@ public class P_Evolution
 public class P_Information
 {
     public string KindName;
-    public bool isShiny;
     public Sprite Icon;
     public Sprite IconShiny;
     public P_Type TypePrimus;

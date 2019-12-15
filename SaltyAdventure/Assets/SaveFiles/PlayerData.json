@@ -1,6 +1,10 @@
 {
-    "Name": "Henri",
-    "Place": "Fahrschule",
-    "Playtime": 47853892.0,
-    "PokedexCount": 42
+    "Name": "Tackle",
+    "Description": "Attacks the Enemy",
+    "ID": 1,
+    "Dmg": 40,
+    "Accuracy": 100,
+    "Index": [],
+    "Priority": 0,
+    "PP": 35
 }

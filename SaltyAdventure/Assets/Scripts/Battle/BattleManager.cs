@@ -5,329 +5,6 @@ using UnityEngine.UI;
 
 public class BattleManager : MonoBehaviour
 {
-    /*public GameObject BattleStationController;
-    public GameObject BattleUI;
-
-    Pokemon Player;
-    Pokemon Enemy;
-
-    public GameObject activeUnit;
-    public GameObject passiveUnit;
-
-    public BattleState battleState;
-
-    public enum BattleState
-    {
-        Idle,
-        Selection,
-
-
-        PlayerTurn,
-        EnemyTurn,
-
-        BattleWon,
-        BattleLost
-    }
-
-    //public Slider PlayerSlider;
-    //public Image FillPlayer;
-
-    private void Start()
-    {
-        battleState = BattleState.Idle;
-    }
-
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            //MakeDmg();
-        }
-        if (Input.GetKeyDown(KeyCode.N))
-        {
-            StartBattle();
-        }
-    }
-
-    public void StartBattle()
-    {
-        //set Units
-        Player = BattleUI.GetComponent<BattleUI>().PlayerHUD.GetComponent<UnitHUD>().PKMN;
-        Enemy = BattleUI.GetComponent<BattleUI>().EnemyHUD.GetComponent<UnitHUD>().PKMN;
-
-        //reset HP  //test
-        Player.currentHP = Player.maxHP;
-        Enemy.currentHP = Enemy.maxHP;
-
-        //Setup Battle
-        SetUpBattle();
-    }
-
-    ///<summary>
-    ///Starts the Battle
-    ///</summary>
-    void SetUpBattle()
-    {
-        //enable Battle UI
-        BattleUI.GetComponent<BattleUI>().InstantiateUI();
-        //activate SelectionField
-        BattleUI.GetComponent<BattleUI>().SelectionField.GetComponent<SelectionField>().ActivateUI();
-
-        StartSelection();
-
-        //StartCoroutine(BattleLoop());
-    }
-
-
-
-    void StartSelection()
-    {
-        battleState = BattleState.Selection;
-
-        BattleUI.GetComponent<BattleUI>().SelectionField.GetComponent<SelectionField>().ActivateUI();
-    }
-
-    IEnumerator StartIdle(string AttackType)
-    {
-        BattleUI.GetComponent<BattleUI>().SelectionField.GetComponent<SelectionField>().DeActivateUI();
-
-        battleState = BattleState.Idle;
-
-        if (Player.Speed > Enemy.Speed)
-        {
-            activeUnit = BattleUI.GetComponent<BattleUI>().PlayerHUD;
-            passiveUnit = BattleUI.GetComponent<BattleUI>().EnemyHUD;
-
-            PlayerMove();
-
-            yield return new WaitForSeconds(2f);
-
-            EnemyMove();
-        }
-        else
-        {
-            activeUnit = BattleUI.GetComponent<BattleUI>().PlayerHUD;
-            passiveUnit = BattleUI.GetComponent<BattleUI>().EnemyHUD;
-
-            EnemyMove();
-
-            yield return new WaitForSeconds(2f);
-
-            PlayerMove();
-        }
-
-        void PlayerMove()
-        {
-            if (AttackType == "Attack")
-            {
-                StartCoroutine(Attack(Player, Enemy));
-            }
-            else if (AttackType == "Heal")
-            {
-                StartCoroutine(Heal(Player, Enemy));
-            }
-        }
-
-        yield return new WaitForSeconds(2f);
-
-        StartSelection();
-    }
-
-    public void OnButtonAttack()
-    {
-        if (battleState == BattleState.Selection)
-        {
-            Debug.Log("Player chose attack");
-
-            //StartCoroutine(Attack(Player, Enemy));
-            StartCoroutine(StartIdle("Attack"));
-        }
-    }
-
-    public void OnButtonHeal()
-    {
-        if (battleState == BattleState.Selection)
-        {
-            Debug.Log("Player chose heal");
-
-            //StartCoroutine(Heal(Player, Enemy));
-            StartCoroutine(StartIdle("Heal"));
-        }
-    }
-
-    void EnemyMove()
-    {
-        if (Random.Range(0, 2) == 0)
-        {
-            StartCoroutine(Attack(Enemy, Player));
-
-            Debug.Log("Enemy chose attack");
-        }
-        else
-        {
-            StartCoroutine(Heal(Enemy, Player));
-            Debug.Log("Enemy chose attack");
-        }
-    }*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*
-
-
-    IEnumerator BattleLoop()
-    {
-        yield return new WaitForSeconds(0.1f);
-
-        //check for Speed
-        if (Player.Speed > Enemy.Speed)
-        {
-            BattleUI.GetComponent<BattleUI>().SetActiveUnit("player");
-
-            battleState = BattleState.Selection;
-        }
-
-        else
-        {
-            BattleUI.GetComponent<BattleUI>().SetActiveUnit("enemy");
-
-            battleState = BattleState.Selection;
-        }
-    }
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    void UnitTurn(Pokemon Unit)
-    {
-        if (Unit == Player)
-        {
-            Debug.Log("Player Turn");
-
-            //Start Selection
-            battleState = BattleState.PlayerTurn;
-        } 
-        else if (Unit == Enemy)
-        {
-            Debug.Log("Enemy Turn");
-
-            //AI Choice
-            battleState = BattleState.EnemyTurn;
-
-            if (Random.Range(0, 2) == 0)
-            {
-                StartCoroutine(Attack(Enemy, Player));
-
-                Debug.Log("Enemy chose attack");
-            }
-            else
-            {
-                StartCoroutine(Heal(Enemy, Player));
-                Debug.Log("Enemy chose attack");
-            }
-        }
-    }
-
-
-    public void OnButtonAttack()
-    {
-        if (battleState == BattleState.PlayerTurn)
-        {
-            Debug.Log("Player chose attack");
-
-            StartCoroutine(Attack(Player, Enemy));
-        }
-    }*/
-
-    /*IEnumerator Attack(Pokemon UnitAttacker, Pokemon UnitDefender)
-    {
-        yield return new WaitForSeconds(0.1f);
-
-        if (BattleUI.GetComponent<BattleUI>().AttackMove(UnitDefender, UnitAttacker))
-        {
-            if (UnitAttacker == Player)
-            {
-                battleState = BattleState.BattleWon;
-
-                Debug.Log("Player has won the Battle!");
-            }
-            else
-            {
-                battleState = BattleState.BattleLost;
-
-                Debug.Log("Player has lost the Battle!");
-            }
-        }
-    }*/
-    /*
-    public void OnButtonHeal()
-    {
-        if (battleState == BattleState.PlayerTurn)
-        {
-            Debug.Log("Player chose heal");
-
-            StartCoroutine(Heal(Player, Enemy));
-        }
-    }
-    */
-    /*IEnumerator Heal(Pokemon UnitAttacker, Pokemon UnitDefender)
-    {
-        yield return new WaitForSeconds(0.1f);
-
-        BattleUI.GetComponent<BattleUI>().HealMove(UnitAttacker);
-    }*/
-
     #region Singleton
 
     public static BattleManager instance;
@@ -391,7 +68,7 @@ public class BattleManager : MonoBehaviour
 
         battleState = BattleState.Idle;
 
-        Debug.Log("Player chose " + Player_Move.Name);
+        //Debug.Log("Player chose " + Player_Move.Name);
 
         BattleUI.GetComponent<BattleUI>().SelectionField.GetComponent<SelectionField>().DeActivateUI();
 
@@ -400,7 +77,7 @@ public class BattleManager : MonoBehaviour
         IEnumerator Attacks()
         {
             //check for Speed
-            if (Player.GetComponent<UnitHUD>().PKMN.Speed > Enemy.GetComponent<UnitHUD>().PKMN.Speed)
+            if (Player.GetComponent<BasePokemon>().LiveStats.Speed > Enemy.GetComponent<BasePokemon>().LiveStats.Speed)
             {
                 battleState = BattleState.PlayerTurn;
                 ExecuteMove(Player, PlayerMove);
@@ -442,18 +119,20 @@ public class BattleManager : MonoBehaviour
                     return Player;
             }
 
+            
+
             //ToDO
             //Use a better Way of switching Moves
             if (Move.Name == "Attack")
             {
-                int Dmg = Random.Range(0, 50);
+                int Dmg = Random.Range(5, 10);
 
                 StartCoroutine(AttackMove(PassiveUnit, Dmg));
 
                 BattleUI.GetComponent<BattleUI>().SelectionField.GetComponent<SelectionField>().InstantiateSFText(
                     ActiveUnit.GetComponent<UnitHUD>().PKMN.Name + " has used " + Move.Name + 
                     " and made " + Dmg + " Damage to " + PassiveUnit.GetComponent<UnitHUD>().PKMN.Name
-               );
+                );
             }
             else if (Move.Name == "Heal")
             {
@@ -467,14 +146,16 @@ public class BattleManager : MonoBehaviour
 
         IEnumerator AttackMove(GameObject PassiveUnit, int Dmg)
         {
+            Debug.Log(PassiveUnit.name + " gets inflicted with " + Dmg);
+
             for (int i = 0; i < Dmg; i++)
             {
-                PassiveUnit.GetComponent<UnitHUD>().PKMN.currentHP--;
+                PassiveUnit.GetComponent<BasePokemon>().LiveStats.HP--;
                 //PassiveUnit.GetComponent<UnitHUD>().Slider.GetComponent<SliderHP>().GetComponent<Slider>().value--;
                 PassiveUnit.GetComponent<UnitHUD>().Slider.GetComponent<SliderHP>().AttackAnimation();
-                PassiveUnit.GetComponent<UnitHUD>().HP.text = PassiveUnit.GetComponent<UnitHUD>().PKMN.currentHP.ToString() + "/" + PassiveUnit.GetComponent<UnitHUD>().PKMN.maxHP.ToString();
+                PassiveUnit.GetComponent<UnitHUD>().HP.text = PassiveUnit.GetComponent<BasePokemon>().LiveStats.HP.ToString() + "/" + PassiveUnit.GetComponent<BasePokemon>().Stats.HP.ToString();
 
-                if (PassiveUnit.GetComponent<UnitHUD>().PKMN.currentHP == 0)
+                if (PassiveUnit.GetComponent<BasePokemon>().LiveStats.HP == 0)
                 {
                     OnDeath();
 
@@ -483,19 +164,21 @@ public class BattleManager : MonoBehaviour
 
                 yield return new WaitForSeconds(0.1f);
             }
+
+            Debug.Log(PassiveUnit.name + " has now " + PassiveUnit.GetComponent<BasePokemon>().LiveStats.HP + "hp");
         }
 
         IEnumerator HealMove(GameObject ActiveUnit)
         {
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 5; i++)
             {
-                if (ActiveUnit.GetComponent<UnitHUD>().PKMN.currentHP == ActiveUnit.GetComponent<UnitHUD>().PKMN.maxHP)
+                if (ActiveUnit.GetComponent<BasePokemon>().LiveStats.HP == ActiveUnit.GetComponent<BasePokemon>().Stats.HP)
                     break;
 
-                ActiveUnit.GetComponent<UnitHUD>().PKMN.currentHP++;
+                ActiveUnit.GetComponent<BasePokemon>().LiveStats.HP++;
                 //ActiveUnit.GetComponent<UnitHUD>().Slider.GetComponent<SliderHP>().GetComponent<Slider>().value++;
                 ActiveUnit.GetComponent<UnitHUD>().Slider.GetComponent<SliderHP>().HealAnimation();
-                ActiveUnit.GetComponent<UnitHUD>().HP.text = ActiveUnit.GetComponent<UnitHUD>().PKMN.currentHP.ToString() + "/" + ActiveUnit.GetComponent<UnitHUD>().PKMN.maxHP.ToString();
+                ActiveUnit.GetComponent<UnitHUD>().HP.text = ActiveUnit.GetComponent<BasePokemon>().LiveStats.HP.ToString() + "/" + ActiveUnit.GetComponent<BasePokemon>().Stats.HP.ToString();
 
                 yield return new WaitForSeconds(0.2f);
             }

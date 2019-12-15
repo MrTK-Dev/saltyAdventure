@@ -23,4 +23,13 @@ public static class StringExtensions
 
         return EndsWith;
     }
+
+    public static string ToLower(this string String, bool ChangeSpace)
+    {
+        string newString;
+
+        newString = String.ToLower().Replace(" ", "_");
+
+        return newString;
+    }
 }

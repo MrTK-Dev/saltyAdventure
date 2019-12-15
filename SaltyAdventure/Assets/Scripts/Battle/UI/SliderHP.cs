@@ -18,6 +18,7 @@ public class SliderHP : MonoBehaviour
     public void AttackAnimation()
     {
         GetComponent<Slider>().value--;
+        Debug.Log(GetComponent<Slider>().value);
         CheckColor();
     }
 

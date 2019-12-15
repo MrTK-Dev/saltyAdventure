@@ -18,4 +18,11 @@ public class UnitHUD : MonoBehaviour
     {
         PKMN.currentHP = PKMN.maxHP;
     }
+
+    public BasePokemon Pokemon;
+
+    void Start()
+    {
+        GetComponent<BasePokemon>().AddMember(Pokemon);
+    }
 }

@@ -1,0 +1,56 @@
+{
+    "MoveData": [
+        {
+            "Name": "Placeholder Name",
+            "Description": "Placeholder Description",
+            "Reference": "placeholder_name",
+            "ID": 0,
+            "Dmg": 0,
+            "Accuracy": 100,
+            "Index": [],
+            "Priority": 0,
+            "PP": 0,
+            "type": 18,
+            "attackType": 0
+        },
+        {
+            "Name": "Tackle",
+            "Description": "Attacks the Enemy",
+            "Reference": "tackle",
+            "ID": 1,
+            "Dmg": 40,
+            "Accuracy": 100,
+            "Index": [],
+            "Priority": 0,
+            "PP": 35,
+            "type": 12,
+            "attackType": 1
+        },
+        {
+            "Name": "Cut",
+            "Description": "Attacks the Enemy with a Cut",
+            "Reference": "cut",
+            "ID": 2,
+            "Dmg": 35,
+            "Accuracy": 95,
+            "Index": [],
+            "Priority": 0,
+            "PP": 40,
+            "type": 12,
+            "attackType": 1
+        },
+        {
+            "Name": "Flamethrower",
+            "Description": "FIRE",
+            "Reference": "flamethrower",
+            "ID": 3,
+            "Dmg": 75,
+            "Accuracy": 100,
+            "Index": [],
+            "Priority": 0,
+            "PP": 10,
+            "type": 6,
+            "attackType": 2
+        }
+    ]
+}

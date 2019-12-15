@@ -90,131 +90,23 @@ public class BattleUI : MonoBehaviour
 
     void InstantiateUnit(GameObject Unit)
     {
+        UnitHUD HUD = Unit.GetComponent<UnitHUD>();
+        BasePokemon Pokemon = Unit.GetComponent<BasePokemon>();
+
         //Name
-        Unit.GetComponent<UnitHUD>().Name.text = Unit.GetComponent<UnitHUD>().PKMN.Name;
+        HUD.Name.text = Pokemon.Name;
+
         //Level
-        Unit.GetComponent<UnitHUD>().Level.text = "Lvl " + Unit.GetComponent<UnitHUD>().PKMN.Level.ToString();
-        //HP
-        Unit.GetComponent<UnitHUD>().HP.text = Unit.GetComponent<UnitHUD>().PKMN.currentHP.ToString() + "/" + Unit.GetComponent<UnitHUD>().PKMN.maxHP.ToString();
-        //Slider
-        Unit.GetComponent<UnitHUD>().Slider.GetComponent<SliderHP>().UpdateSlider(Unit.GetComponent<UnitHUD>().PKMN.maxHP, Unit.GetComponent<UnitHUD>().PKMN.currentHP);
+        HUD.Level.text = "Lvl " + Pokemon.Level.ToString();
+
+        //HP & Slider
+        HUD.HP.text = Pokemon.LiveStats.HP.ToString() + "/" + Pokemon.Stats.HP.ToString();
+
+        HUD.Slider.GetComponent<SliderHP>().UpdateSlider(Pokemon.Stats.HP, Pokemon.LiveStats.HP);
     }
 
     public void InstantiateSelection()
     {
         SelectionField.GetComponent<SelectionField>().AddMovesUI(PlayerHUD.GetComponent<UnitHUD>().Moves);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*public bool AttackMove(Pokemon UnitDefender, Pokemon UnitAttacker)
-    {
-        int cachedHP = UnitDefender.currentHP;
-
-        int DMG = Random.Range(0, 20) + 1;
-
-        if (UnitDefender.currentHP - DMG <= 0)
-        {
-            UnitDefender.currentHP = 0;
-        }
-
-        else
-        {
-            UnitDefender.currentHP -= DMG;
-        }
-
-        SliderAnimation(UnitDefender);
-
-        InstantiateUIHP();
-
-        Debug.Log(UnitDefender.Name + " got hurt by " + DMG);
-
-        //InstantiateUI();
-
-        return (UnitDefender.currentHP == 0);
-    }
-
-    public void HealMove(Pokemon Unit)
-    {
-        if (Unit.currentHP + 10 >= Unit.maxHP)
-            Unit.currentHP = Unit.maxHP;
-        else
-            Unit.currentHP += 10;
-
-        Debug.Log("Healed " + Unit.Name);
-
-        InstantiateUI();
-    }
-
-    void SliderAnimation(Pokemon Unit)
-    {
-        if (Unit == PlayerHUD.GetComponent<UnitHUD>().PKMN)
-        {
-            StartCoroutine(PlayerHUD.GetComponent<UnitHUD>().Slider.GetComponent<SliderHP>().SliderAnimation(Unit.currentHP));
-        }
-        else
-        {
-            StartCoroutine(EnemyHUD.GetComponent<UnitHUD>().Slider.GetComponent<SliderHP>().SliderAnimation(Unit.currentHP));
-        }
-
-        //InstantiateUI();
-    }*/
-
-
-
-
-
 }

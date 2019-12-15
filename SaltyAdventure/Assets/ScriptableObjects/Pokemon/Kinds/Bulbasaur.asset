@@ -13,36 +13,35 @@ MonoBehaviour:
   m_Name: Bulbasaur
   m_EditorClassIdentifier: 
   GeneralInformation:
-    KindName: 
-    isShiny: 0
-    Icon: {fileID: 0}
+    KindName: Bulbasaur
+    Icon: {fileID: 4993592091484334326, guid: 9029fe1adcd84ae4993cf1a720afbea0, type: 3}
     IconShiny: {fileID: 0}
-    TypePrimus: 0
-    TypeSecundus: 0
+    TypePrimus: 9
+    TypeSecundus: 13
   PokedexEntry:
     Index: 1
     Description: Its plant blooms when it is absorbing solar energy. It stays on the
       move to seek sunlight.
   BaseStats:
-    HPStat: 0
-    AttackStat: 0
-    DefenceStat: 0
-    SpAttackStat: 0
-    SpDefenceStat: 0
-    SpeedStat: 0
+    HPStat: 45
+    AttackStat: 49
+    DefenceStat: 49
+    SpAttackStat: 65
+    SpDefenceStat: 65
+    SpeedStat: 45
   Evolution:
-    canEvolve: 0
-    Evo_LvL: 0
-    E_Kind: {fileID: 0}
+    canEvolve: 1
+    Evo_LvL: 16
+    E_Kind: {fileID: 11400000, guid: 8be212c359b3a8247b3bb470d67cbbbd, type: 2}
   Moves:
     Lvl: []
     LvlUP: 
     TM: []
   Breeding:
-    hasGender: 0
-    MaleRatio: 0
-    CatchRate: 0
-    YieldExp: 0
+    hasGender: 1
+    MaleRatio: 0.875
+    CatchRate: 0.119
+    YieldExp: 64
     YieldEV:
       HP: 0
       Att: 0
@@ -50,6 +49,6 @@ MonoBehaviour:
       SAt: 0
       SDe: 0
       Sp: 0
-    LvlRate: 0
-    HatchTime: 0
-    EggGroups: 
+    LvlRate: 1
+    HatchTime: 5140
+    EggGroups: 0000000001000000
