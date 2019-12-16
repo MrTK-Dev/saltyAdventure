@@ -86,11 +86,11 @@ public class MainMenu : MonoBehaviour
     //Json Tester
     public void Save()
     {
-        SaveFunctions.Save();
+        //SaveFunctions.Save();
     }
 
     public void Load()
     {
-        Debug.Log(LoadPlayerData.Read("PlayerData").Place);
+        //Debug.Log(LoadPlayerData.Read("PlayerData").Place);
     }
 }

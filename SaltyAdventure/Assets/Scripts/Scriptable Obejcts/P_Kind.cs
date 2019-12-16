@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+/*
 [CreateAssetMenu(fileName = "New Poke", menuName = "SO/Pokemon/Kind")]
 public class P_Kind : ScriptableObject
 {
@@ -19,34 +19,7 @@ public class P_Kind : ScriptableObject
     public P_Breeding Breeding;
 }
 
-/// <summary>
-/// Type of the Pokemon.
-/// The Types have to be different for one Kind of Pokemon!
-/// </summary>
-[System.Serializable]
-public enum P_Type
-{
-    Bug, 
-    Dark, 
-    Dragon, 
-    Electric, 
-    Fairy, 
-    Fighting, 
-    Fire, 
-    Flying, 
-    Ghost, 
-    Grass, 
-    Ground, 
-    Ice, 
-    Normal, 
-    Poison, 
-    Psychic, 
-    Rock, 
-    Steel, 
-    Water,
 
-    none
-}
 
 /// <summary>
 /// These Stats are base Stats and get multiplied with Level, etc.
@@ -143,7 +116,7 @@ public class P_EVYield
     public int SDe;
     public int Sp;
 }
-
+*/
 
 /*
  * Pokemon Kind

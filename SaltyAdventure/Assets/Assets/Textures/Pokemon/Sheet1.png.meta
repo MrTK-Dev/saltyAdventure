@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 4993592091484334326
-    second: Bulbasaur
+    second: bulbasaur
   - first:
       213: -2710727182971520579
-    second: Ivysaur
+    second: ivysaur
   - first:
       213: -5668190286943779030
-    second: Venusaur
+    second: venusaur
   - first:
       213: -7927563920656728987
     second: Sheet1_3
@@ -128,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bulbasaur
+      name: bulbasaur
       rect:
         serializedVersion: 2
         x: 0
@@ -149,7 +149,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ivysaur
+      name: ivysaur
       rect:
         serializedVersion: 2
         x: 96
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Venusaur
+      name: venusaur
       rect:
         serializedVersion: 2
         x: 192

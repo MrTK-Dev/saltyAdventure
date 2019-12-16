@@ -5,18 +5,26 @@ using UnityEngine;
 public class BasePokemon : MonoBehaviour
 {
     public string Name;
-    public P_Kind Kind;
+
+    public Monster Monster;
+
     public Item HeldItem;
+
     public P_Trainer TrainerInfo;
     public P_Stats Stats;
     public Live_Stats LiveStats;
+
     public bool isShiny;
+
     public int Level = 1;
+    public int Happiness;
+
+    public Move[] Moves = new Move[4];
 
     public void AddMember(BasePokemon bp)
     {
         Name = bp.Name;
-        Kind = bp.Kind;
+        Monster = bp.Monster;
         HeldItem = bp.HeldItem;
         TrainerInfo = bp.TrainerInfo;
         LiveStats = bp.LiveStats;
@@ -25,23 +33,23 @@ public class BasePokemon : MonoBehaviour
         Stats = bp.Stats;
 
         /**/
+        PokemonData Data = PokemonData.GetData(Monster);
+
+        LiveStats.HP = Data.BaseStats.HPStat;
+        LiveStats.Attack = Data.BaseStats.AttackStat;
+        LiveStats.Defence = Data.BaseStats.DefenceStat;
+        LiveStats.SpecialAttack = Data.BaseStats.SpAttackStat;
+        LiveStats.SpecialDefence = Data.BaseStats.SpDefenceStat;
+        LiveStats.Speed = Data.BaseStats.SpeedStat;
+
+        /*
         LiveStats.HP = bp.Kind.BaseStats.HPStat;
         LiveStats.Attack = bp.Kind.BaseStats.AttackStat;
         LiveStats.Defence = bp.Kind.BaseStats.DefenceStat;
         LiveStats.SpecialAttack = bp.Kind.BaseStats.SpAttackStat;
         LiveStats.SpecialDefence = bp.Kind.BaseStats.SpDefenceStat;
         LiveStats.Speed = bp.Kind.BaseStats.SpeedStat;
-        /**/
-    }
-
-    public void GetXP()
-    {
-
-    }
-
-    public void LvlUP()
-    {
-
+        */
     }
 }
 

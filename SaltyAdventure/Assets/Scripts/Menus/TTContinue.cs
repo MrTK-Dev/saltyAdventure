@@ -25,11 +25,11 @@ public class TTContinue : MonoBehaviour
 
 
         //Data
-        string Continue2 = 
-            LoadPlayerData.Read("PlayerData").Name + "\n" +
+        string Continue2 = "WIP";
+            /*LoadPlayerData.Read("PlayerData").Name + "\n" +
             LoadPlayerData.Read("PlayerData").Place + "\n" +
             LoadPlayerData.Read("PlayerData").Playtime.TimeFormat("dhm") + "\n" +
-            LoadPlayerData.Read("PlayerData").PokedexCount;
+            LoadPlayerData.Read("PlayerData").PokedexCount;*/
 
         StartCoroutine(PlayerInfo.TypeWriterEffect(Continue2, 0.1f));
 

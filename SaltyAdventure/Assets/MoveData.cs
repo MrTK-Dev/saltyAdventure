@@ -73,7 +73,7 @@ public static class JSON_MoveData
 }
 
 /// <summary>
-/// This Class functions purely as JSON-Helper.
+/// This Class functions purely as a JSON-Helper.
 /// </summary>
 public class MoveDataBase
 {
@@ -98,6 +98,7 @@ public class MoveData
     /// "placeholder_name"
     /// </summary>
     public string Reference = "placeholder_reference";
+    public Move Move = Move.none;
 
     /// <summary>
     /// If ID stays at -1, check will throw error!
@@ -135,6 +136,9 @@ public class MoveData
 
     public static int Count { get { return Database.Length; } }
     public static MoveData[] Database;
+
+    #region DataBase
+
     static MoveData()
     {
         Database = new MoveData[]
@@ -148,6 +152,7 @@ public class MoveData
             {
                 Name = "Tackle",
                 Description = "Attacks the Enemy",
+                Move = Move.tackle,
                 Dmg = 40,
                 PP = 35,
                 type = P_Type.Normal,
@@ -157,6 +162,7 @@ public class MoveData
             {
                 Name = "Cut",
                 Description = "Attacks the Enemy with a Cut",
+                Move = Move.cut,
                 Dmg = 35,
                 Accuracy = 95,
                 PP = 40,
@@ -167,6 +173,7 @@ public class MoveData
             {
                 Name = "Flamethrower",
                 Description = "FIRE",
+                Move = Move.flamethrower,
                 Dmg = 75,
                 PP = 10,
                 type = P_Type.Fire,
@@ -175,22 +182,45 @@ public class MoveData
         };
     }
 
+    #endregion
+
     public static MoveData GetData(int Index)
     {
         return Database[Index];
+    }
+
+    public static MoveData GetData(Move Move)
+    {
+        for (int i = 0; i < MoveData.Count; i++)
+        {
+            if (Database[i].Move == Move)
+            {
+                return Database[i];
+            }
+        }
+
+        return Database[0];
     }
 
     public static MoveData[] GetDatabase()
     {
         return Database;
     }
+}
 
-    public enum AttackType
-    {
-        None,
+public enum AttackType
+{
+    None,
 
-        Physical,
-        Special,
-        Status
-    }
+    Physical,
+    Special,
+    Status
+}
+
+public enum Move
+{
+    none,
+    tackle,
+    cut,
+    flamethrower
 }

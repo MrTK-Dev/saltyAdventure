@@ -1,0 +1,133 @@
+{
+    "PokemonData": [
+        {
+            "GeneralInformation": {
+                "Monster": 0,
+                "Name": "Placeholder Name",
+                "Reference": "placeholder_name",
+                "Icon": {
+                    "instanceID": 0
+                },
+                "IconShiny": {
+                    "instanceID": 0
+                },
+                "TypePrimus": 18,
+                "TypeSecundus": 18
+            },
+            "Pokedex_Entry": {
+                "Index": 0,
+                "Description": ""
+            },
+            "BaseStats": {
+                "HPStat": 0,
+                "AttackStat": 0,
+                "DefenceStat": 0,
+                "SpAttackStat": 0,
+                "SpDefenceStat": 0,
+                "SpeedStat": 0
+            },
+            "Evolution": {
+                "EvolutionType": 0,
+                "EvolutionPokemon": 0,
+                "Level": -1,
+                "Item": {
+                    "instanceID": 0
+                }
+            },
+            "MoveList": [
+                {
+                    "Move": 0,
+                    "MoveTree": 0,
+                    "LvlUP": -1
+                }
+            ],
+            "Breeding": {
+                "hasGender": true,
+                "MaleRatio": -1.0,
+                "CatchRate": 0.0,
+                "YieldExp": 0,
+                "YieldEV": {
+                    "HP": 0,
+                    "Att": 0,
+                    "Def": 0,
+                    "SAt": 0,
+                    "SDe": 0,
+                    "Sp": 0
+                },
+                "LvlRate": 2,
+                "HatchTime": [
+                    0,
+                    0
+                ],
+                "EggGroups": [
+                    0
+                ]
+            }
+        },
+        {
+            "GeneralInformation": {
+                "Monster": 1,
+                "Name": "Bulbasaur",
+                "Reference": "bulbasaur",
+                "Icon": {
+                    "instanceID": 0
+                },
+                "IconShiny": {
+                    "instanceID": 0
+                },
+                "TypePrimus": 9,
+                "TypeSecundus": 13
+            },
+            "Pokedex_Entry": {
+                "Index": 1,
+                "Description": "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger."
+            },
+            "BaseStats": {
+                "HPStat": 45,
+                "AttackStat": 49,
+                "DefenceStat": 49,
+                "SpAttackStat": 65,
+                "SpDefenceStat": 65,
+                "SpeedStat": 45
+            },
+            "Evolution": {
+                "EvolutionType": 1,
+                "EvolutionPokemon": 0,
+                "Level": 16,
+                "Item": {
+                    "instanceID": 0
+                }
+            },
+            "MoveList": [
+                {
+                    "Move": 1,
+                    "MoveTree": 0,
+                    "LvlUP": 1
+                }
+            ],
+            "Breeding": {
+                "hasGender": true,
+                "MaleRatio": 0.875,
+                "CatchRate": 0.11900000274181366,
+                "YieldExp": 64,
+                "YieldEV": {
+                    "HP": 0,
+                    "Att": 0,
+                    "Def": 0,
+                    "SAt": 1,
+                    "SDe": 0,
+                    "Sp": 0
+                },
+                "LvlRate": 1,
+                "HatchTime": [
+                    5140,
+                    5396
+                ],
+                "EggGroups": [
+                    1,
+                    2
+                ]
+            }
+        }
+    ]
+}

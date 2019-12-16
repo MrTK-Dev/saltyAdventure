@@ -1,112 +1,106 @@
 ﻿using UnityEngine;
 using System.IO;
-/*
-[System.Serializable]
-public class SavePlayerData
-{
-    public string Name;
-    public string Place;
-    public float Playtime;
-    public int PokedexCount;
-}*/
 
-[System.Serializable]
-public class SavePlayerData
+/// <summary>
+/// Provides Functions to write and read from JSON for Handling of the PlayerData Class.
+/// </summary>
+public static class JSON_PlayerData
 {
-    public string Name;
-    public string Place;
-    public float Playtime;
-    public int PokedexCount;
-
-    public static SavePlayerData[] Database;
-    static SavePlayerData()
+    /// <summary>
+    /// Writes all PlayerData(s) to a JSON.
+    /// </summary>
+    static public void WriteDataBase()
     {
-        Database = new SavePlayerData[]
+        PlayerDataBase Database = new PlayerDataBase
         {
-            new SavePlayerData()
-            {
-                Name = "Placeholder Name",
-                Place = "lol",
-                Playtime = 121212f,
-                PokedexCount = 1
-            },
+            PlayerData = PlayerData.GetDatabase()
+        };
 
-            new SavePlayerData()
-            {
-                Name = "Name",
-                Place = "xd",
-                Playtime = 212f,
-                PokedexCount = 2
-            }
-        }; 
+        //cache
+        //string Ref = PlayerData.Database[0].Reference;
+
+        /*for (int i = 0; i < PlayerData.Count; i++)
+        {
+            if (Database.PlayerData[i].ID == -1)
+                Database.PlayerData[i].ID = i;
+        }*/
+
+        DataManagment.WriteToJSON(Database, "PokemonData/Data");
     }
 
-    public static SavePlayerData GetData(int Index)
+    /// <summary>
+    /// Return the whole DataBase (Class).
+    /// Use with DataBase.PlayerData[Index].
+    /// </summary>
+    /// <returns></returns>
+    static public PlayerDataBase LoadDataBase()
+    {
+        string JSON = DataManagment.ReadFromJSON("PokemonData/Data");
+
+        return JsonUtility.FromJson<PlayerDataBase>(JSON);
+    }
+
+    /// <summary>
+    /// Returns PlayerData with a given Index.
+    /// </summary>
+    /// <param name="Index"></param>
+    /// <returns>PlayerData</returns>
+    static public PlayerData LoadData(int Index)
+    {
+        return LoadDataBase().PlayerData[Index];
+    }
+}
+
+/// <summary>
+/// This Class functions purely as a JSON-Helper.
+/// </summary>
+public class PlayerDataBase
+{
+    public PlayerData[] PlayerData;
+}
+
+[System.Serializable]
+public class PlayerData
+{
+    #region Variables
+
+    public int ID = -1;
+    public int Trainer_ID = 00000;
+
+    public string Name = "Placeholder Name";
+    public Gender Gender = Gender.None;
+
+    public string Place = "Placeholder Place"; //change to enum
+
+    #endregion
+
+    public static int Count { get { return Database.Length; } }
+    public static PlayerData[] Database;
+
+    static PlayerData()
+    {
+        Database = new PlayerData[]
+        {
+            new PlayerData()  //PlaceHolder
+            {
+                ID = 0
+            }
+        };
+    }
+    public static PlayerData GetData(int Index)
     {
         return Database[Index];
     }
 
-    public static SavePlayerData[] GetData2()
+    public static PlayerData[] GetDatabase()
     {
         return Database;
     }
 }
 
-
-public static class LoadPlayerData
+public enum Gender
 {
-    public static SavePlayerData Read(string Path)
-    {
-        string jsonString = File.ReadAllText(Application.dataPath + "/SaveFiles/" + Path +".json");
-
-        return JsonUtility.FromJson<SavePlayerData>(jsonString);
-    }
-}
-
-
-public static class SaveFunctions
-{
-    public static void Save()
-    {
-        SavePlayerData PlayerData = new SavePlayerData();
-        /*
-        //change to global Variable
-        PlayerData.Name = "Henri";
-        PlayerData.Place = "Fahrschule";
-        PlayerData.Playtime = 47853892f;
-        PlayerData.PokedexCount = 42;
-        */
-
-        PlayerData = SavePlayerData.GetData(0);
-        WriteToJSON("PlayerData", JsonUtility.ToJson(PlayerData, true));
-
-        //WriteToJSON("PlayerData", JsonUtility.ToJson(, true));
-    }
-
-    public static void WriteToJSON(string Path, string JSONString)
-    {
-        File.WriteAllText(Application.dataPath + "/SaveFiles/" + Path + ".json", JSONString);
-
-        Debug.Log(JSONString);
-    }
-
-    public static void Update()
-    {
-        SavePlayerData PlayerData = new SavePlayerData();
-
-        //change to global Variable
-        PlayerData.Name = "Henri";
-        PlayerData.Place = "Living Room";
-        PlayerData.Playtime = 900f;
-        PlayerData.PokedexCount = 42;
-
-        OverwriteJSON(JsonUtility.ToJson(PlayerData, true), PlayerData);
-    }
-
-    public static void OverwriteJSON(string JSONString, object JSON)
-    {
-        JsonUtility.FromJsonOverwrite(JSONString, JSON);
-
-        Debug.Log(JSONString);
-    }
+    None,
+    Male,
+    Female
 }
