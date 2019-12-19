@@ -19,13 +19,13 @@ public class PauseMenu : MonoBehaviour
 
     public void PauseGame() {
         //Pause
-        FindObjectOfType<TimeController>().FreezeTime();
+        TimeController.FreezeTime();
         //UI active
         PauseMenuUI.SetActive(true);
     }
     public void ResumeGame() {
         //UnPause
-        FindObjectOfType<TimeController>().ResumeTime();
+        TimeController.ResumeTime();
         //UI deactive
         PauseMenuUI.SetActive(false);
     }

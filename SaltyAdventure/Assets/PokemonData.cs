@@ -54,9 +54,6 @@ public static class JSON_PokemonData
     }
 }
 
-
-
-
 /// <summary>
 /// This Class functions purely as a JSON-Helper.
 /// </summary>
