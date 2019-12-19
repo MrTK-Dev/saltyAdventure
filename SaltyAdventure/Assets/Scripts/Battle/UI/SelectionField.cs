@@ -16,11 +16,11 @@ public class SelectionField : MonoBehaviour
         Buttons.GetComponent<ButtonParent>().ActivateAll();
     }
 
-    public void AddMovesUI(List<BattleMove> newMoves)
+    public void AddMovesUI()
     {
         ActivateUI();
 
-        Buttons.GetComponent<ButtonParent>().UpdateUI(newMoves);
+        //Buttons.GetComponent<ButtonParent>().UpdateUI(newMoves);
     }
 
     public void DeActivateUI()

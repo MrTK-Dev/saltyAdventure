@@ -2,7 +2,7 @@
 
 public class ItemPickUp : Interactable
 {
-    public Item item;
+    public Item_Item Item;
 
     public GameObject TextFieldController;
     string TextToAdd;
@@ -16,7 +16,9 @@ public class ItemPickUp : Interactable
 
     void PickUp()
     {
-        bool wasPickedUp = InventoryController.instance.AddItemToInventory(item);
+        Debug.Log(Item.ToString());
+
+        bool wasPickedUp = Inventory.AddItem(Item);
 
         if (wasPickedUp)
         {
@@ -31,7 +33,7 @@ public class ItemPickUp : Interactable
     {
         if (PickedUp)
         {
-            TextToAdd = "Player picked up " + item.name;
+            TextToAdd = "Player picked up " + Item.ToString();
         } else
         {
             TextToAdd = "Not enough Space in the Inventory";

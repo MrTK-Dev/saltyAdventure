@@ -107,6 +107,6 @@ public class BattleUI : MonoBehaviour
 
     public void InstantiateSelection()
     {
-        SelectionField.GetComponent<SelectionField>().AddMovesUI(PlayerHUD.GetComponent<UnitHUD>().Moves);
+        //SelectionField.GetComponent<SelectionField>().AddMovesUI(PlayerHUD.GetComponent<UnitHUD>().Moves);
     }
 }

@@ -274,7 +274,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 288524998331825301}
+      - m_Target: {fileID: 7298926929748272797}
         m_MethodName: HighlightItem
         m_Mode: 1
         m_Arguments:
@@ -402,7 +402,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 288524998331825301}
+      - m_Target: {fileID: 0}
         m_MethodName: OnRemoveButton
         m_Mode: 1
         m_Arguments:
@@ -422,7 +422,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8933734890405723133}
-  - component: {fileID: 288524998331825301}
+  - component: {fileID: 7298926929748272797}
   m_Layer: 5
   m_Name: ItemSlot
   m_TagString: ItemSlot
@@ -451,7 +451,7 @@ RectTransform:
   m_AnchoredPosition: {x: -201.15, y: 112.25}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &288524998331825301
+--- !u!114 &7298926929748272797
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -463,13 +463,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99ceb05fc71fb094f91b4de95c6f850a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Selection: {fileID: 0}
   icon: {fileID: 8933734891328174810}
   removeButton: {fileID: 8933734890192885348}
   textField: {fileID: 973573730}
   ItemCount: {fileID: 127245634}
-  item: {fileID: 0}
   ButtonBG: {fileID: 8933734889583568078}
-  Index: 0
+  Item: 0
 --- !u!1 &8933734891328174808
 GameObject:
   m_ObjectHideFlags: 0

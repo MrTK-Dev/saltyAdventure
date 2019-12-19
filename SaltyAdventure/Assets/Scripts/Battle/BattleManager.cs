@@ -52,21 +52,21 @@ public class BattleManager : MonoBehaviour
         BattleUI.GetComponent<BattleUI>().InstantiateSelection();
     }
 
-    public void StartRound(BattleMove Player_Move)
+    public void StartRound()
     {
-        float PauseDuration = 5f;
+        //float PauseDuration = 5f;
 
-        BattleMove PlayerMove = Player_Move;
-        BattleMove EnemyMove = RandomizeEnemy();
+        //BattleMove PlayerMove = Player_Move;
+        //BattleMove EnemyMove = RandomizeEnemy();
 
-        BattleMove RandomizeEnemy()
-        {
-            int MoveInt = Random.Range(0, Enemy.GetComponent<UnitHUD>().Moves.Count);
+        //BattleMove RandomizeEnemy()
+        //{
+        //    int MoveInt = Random.Range(0, Enemy.GetComponent<UnitHUD>().Moves.Count);
+        //
+        //    return Enemy.GetComponent<UnitHUD>().Moves[MoveInt];
+        //}
 
-            return Enemy.GetComponent<UnitHUD>().Moves[MoveInt];
-        }
-
-        battleState = BattleState.Idle;
+        /*battleState = BattleState.Idle;
 
         //Debug.Log("Player chose " + Player_Move.Name);
 
@@ -202,6 +202,6 @@ public class BattleManager : MonoBehaviour
 
                 yield return new WaitForSeconds(2f);
             }
-        }
+        }*/
     }
 }

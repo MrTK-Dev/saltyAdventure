@@ -16,9 +16,11 @@ public class ItemData
     public Item_Item Item = Item_Item.none;
     public string Name = "Placeholder Name";
     public string Description = "Placeholder Description";
+    public Item_Category Category = Item_Category.none;
     public int ID = -1;
-    //public Sprite Icon;
-    public int Stacksize = 99;
+    public Sprite Icon;
+    public int Stacksize = 1;
+    public int maxStack = 99;
     /// <summary>
     /// If Price <= 0 -> Item is not for purchase.
     /// </summary>
@@ -47,6 +49,7 @@ public class ItemData
             Item = Item_Item.Potion,
             Name = "Potion",
             Description = "Heals the Pokemon by 20 HP",
+            Category = Item_Category.Medicine,
             ID = 1,
             Price = 200,
             SellPrice = 50
@@ -87,6 +90,7 @@ public class ItemData
 
 public enum Item_Category
 {
+    none,
     Medicine,
     Items,
     Pokeball,

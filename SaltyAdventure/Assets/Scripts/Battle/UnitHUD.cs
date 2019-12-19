@@ -12,7 +12,7 @@ public class UnitHUD : MonoBehaviour
 
     public Pokemon PKMN;
 
-    public List<BattleMove> Moves;
+   //public List<BattleMove> Moves;
 
     public void ResetHP()
     {

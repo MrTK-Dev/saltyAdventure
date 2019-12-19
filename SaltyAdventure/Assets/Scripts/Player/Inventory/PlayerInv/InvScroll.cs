@@ -32,7 +32,7 @@ public class InvScroll : MonoBehaviour
         {
             newInvSlot = Instantiate(InventorySlotPreFab, new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
             newInvSlot.transform.SetParent(ContentList);
-            newInvSlot.GetComponent<InventorySlot>().AddItem(activeItemList[i]);
+            //newInvSlot.GetComponent<InventorySlot>().AddItem(activeItemList[i].);
         }
     }
 

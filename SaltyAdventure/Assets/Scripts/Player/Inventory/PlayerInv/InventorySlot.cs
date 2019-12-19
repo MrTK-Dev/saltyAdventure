@@ -3,33 +3,41 @@ using UnityEngine.UI;
 
 public class InventorySlot : MonoBehaviour
 {
+    public GameObject Selection;
+
     public Image icon;
     public Button removeButton;
     public Text textField;
     public Text ItemCount;
-    public Item item;
     public Image ButtonBG;
 
-    public void AddItem(Item newItem)
-    {
-        item = newItem;
+    public Item_Item Item;
 
-        icon.sprite = item.icon;
+    public void AddItem(ItemData newItem)
+    {
+        Item = newItem.Item;
+
+        icon.sprite = newItem.Icon;
         icon.enabled = true;
 
         removeButton.interactable = true;
         ButtonBG.enabled = true;
 
         //change textfields
-        textField.text = item.name;
-        ItemCount.text = "x " + item.StackSize.ToString();
+        textField.text = newItem.Name;
+        ItemCount.text = "x " + newItem.Stacksize.ToString();
 
         GetComponentInChildren<Image>().enabled = true;
     }
 
+    public void AddItem(Item_Item newItem)
+    {
+        AddItem(ItemData.GetData(newItem));
+    }
+
     public void ClearSlot()
     {
-        item = null;
+        Item = Item_Item.none;
 
         icon.sprite = null;
         icon.enabled = false;
@@ -42,9 +50,9 @@ public class InventorySlot : MonoBehaviour
 
     public void HighlightItem()
     {
-        if (item != null)
+        if (Item != Item_Item.none)
         {
-            ItemHighlight.instance.HighlightItem(item);
+            Inventory_Selector.instance.SelectItem(Item);
         }
     }
 }
