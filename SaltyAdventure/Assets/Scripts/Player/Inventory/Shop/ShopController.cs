@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class ShopController : MonoBehaviour
 {
     #region Singleton
@@ -24,7 +25,7 @@ public class ShopController : MonoBehaviour
     GameObject newShopSlot;
 
     public Text Title;
-    public Shop activeShop;
+    //public Shop activeShop;
 
     //Highlight
     public Item HItem;
@@ -37,7 +38,7 @@ public class ShopController : MonoBehaviour
     public bool ModeBuying = true;
     public Text SwitchButton;
 
-    public void OpenShopUI(Shop shop)
+    /*public void OpenShopUI(Shop shop)
     {
         //cache shop
         activeShop = shop;
@@ -50,7 +51,7 @@ public class ShopController : MonoBehaviour
 
         //reset to 1st item in list
         ChooseItem(shop.Stock[0]);
-    }
+    }*/
 
     void ClearSlots()
     {
@@ -60,7 +61,7 @@ public class ShopController : MonoBehaviour
         }
     }
 
-    void SetItemList(Shop shop)
+    /*void SetItemList(Shop shop)
     {
         //clear list
         ClearSlots();
@@ -72,7 +73,7 @@ public class ShopController : MonoBehaviour
             newShopSlot.transform.SetParent(ContentList);
             newShopSlot.GetComponent<ShopSlot>().AddItem(shop.Stock[i]);
         }
-    }
+    }*/
 
     public void ChooseItem(Item item)
     {
@@ -110,7 +111,7 @@ public class ShopController : MonoBehaviour
             ModeBuying = true;
             SwitchButton.text = "Sell [WIP]";
 
-            OpenShopUI(activeShop);
+            //OpenShopUI(activeShop);
         }
     }
 

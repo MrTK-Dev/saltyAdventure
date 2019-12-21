@@ -53,6 +53,66 @@ public class ItemData
             ID = 1,
             Price = 200,
             SellPrice = 50
+        },
+        new ItemData()
+        {
+            Item = Item_Item.Antidote,
+            Name = "Antidote",
+            Description = "A spray-type medicine for treating poisoning. It can be used to lift the effects of being poisoned from a single Pokémon.",
+            Category = Item_Category.Medicine,
+            ID = 2,
+            Price = 300,
+            SellPrice = 75
+        },
+        new ItemData()
+        {
+            Item = Item_Item.Awakening,
+            Name = "Awakening",
+            Description = "A spray-type medicine to wake the sleeping. It can be used to rouse a single Pokémon from the clutches of sleep.",
+            Category = Item_Category.Medicine,
+            ID = 3,
+            Price = 250,
+            SellPrice = 50
+        },
+        new ItemData()
+        {
+            Item = Item_Item.Pokeball,
+            Name = "Pokeball",
+            Description = "A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.",
+            Category = Item_Category.Pokeball,
+            ID = 4,
+            Price = 200,
+            SellPrice = 50
+        },
+        new ItemData()
+        {
+            Item = Item_Item.FullRestore,
+            Name = "Full Restore",
+            Description = "A medicine that can be used to fully restore the HP of a single Pokémon and heal any status conditions it has.",
+            Category = Item_Category.Medicine,
+            ID = 5,
+            Price = 3000,
+            SellPrice = 1000
+        },
+        new ItemData()
+        {
+            Item = Item_Item.HyperPotion,
+            Name = "Hyper Potion",
+            Description = "A spray-type medicine for treating wounds. It can be used to restore 120 HP to a single Pokémon.",
+            Category = Item_Category.Medicine,
+            ID = 6,
+            Price = 1500,
+            SellPrice = 250
+        },
+        new ItemData()
+        {
+            Item = Item_Item.UltraBall,
+            Name = "Ultra Ball",
+            Description = "An ultra-high performance Poké Ball that provides a higher success rate for catching Pokémon than a Great Ball.",
+            Category = Item_Category.Pokeball,
+            ID = 7,
+            Price = 1200,
+            SellPrice = 400
         }
     };
 
@@ -103,7 +163,13 @@ public enum Item_Category
 public enum Item_Item   //change to Item
 {
     none,
-    Potion
+    Potion,
+    Antidote,
+    Awakening,
+    Pokeball,
+    FullRestore,
+    HyperPotion,
+    UltraBall
 }
 
 #endregion
