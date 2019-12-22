@@ -16,7 +16,12 @@ public class TriggerGrass : MonoBehaviour
 
         if (RandomFL == 0) {
             //call Battle Scene
-            Logger.Note(GetType(), "An wild Enemy appears!");
+            Logger.Info(GetType(), "An wild Enemy appears!");
+            Logger.Debug(GetType(), "An wild Enemy appears!");
+            Logger.Warning(GetType(), "An wild Enemy appears!");
+            Logger.Error(GetType(), "An wild Enemy appears!");
+            Logger.Exception(GetType(), "An wild Enemy appears!");
+            
 
             //Debug.Log(PlaceData.GetData(Place).Name);
 
