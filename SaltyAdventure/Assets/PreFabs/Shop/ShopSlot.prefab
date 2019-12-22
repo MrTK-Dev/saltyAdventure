@@ -144,6 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17ef80bd1ceeb04428bf8c51ed766bf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Shop: {fileID: 0}
   Name: {fileID: 7804563012951040193}
   Price: {fileID: 7804563013868362197}
   Icon: {fileID: 7804563013452415080}

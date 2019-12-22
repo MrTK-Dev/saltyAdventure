@@ -5,12 +5,8 @@
                 "Monster": 0,
                 "Name": "Placeholder Name",
                 "Reference": "placeholder_name",
-                "Icon": {
-                    "instanceID": 0
-                },
-                "IconShiny": {
-                    "instanceID": 0
-                },
+                "Icon": "Sheet1/placeholder_name",
+                "IconShiny": "",
                 "TypePrimus": 18,
                 "TypeSecundus": 18
             },
@@ -55,6 +51,7 @@
                     "Sp": 0
                 },
                 "LvlRate": 2,
+                "BaseHappiness": 0,
                 "HatchTime": [
                     0,
                     0
@@ -69,12 +66,8 @@
                 "Monster": 1,
                 "Name": "Bulbasaur",
                 "Reference": "bulbasaur",
-                "Icon": {
-                    "instanceID": 0
-                },
-                "IconShiny": {
-                    "instanceID": 0
-                },
+                "Icon": "Sheet1/bulbasaur",
+                "IconShiny": "",
                 "TypePrimus": 9,
                 "TypeSecundus": 13
             },
@@ -119,6 +112,7 @@
                     "Sp": 0
                 },
                 "LvlRate": 1,
+                "BaseHappiness": 70,
                 "HatchTime": [
                     5140,
                     5396

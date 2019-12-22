@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShopTrigger : Interactable
 {
-    public Shop shop;
+    public Shop_Shop Shop;
     public GameObject ShopController;
 
     public override void Interact()
@@ -16,6 +16,6 @@ public class ShopTrigger : Interactable
 
     void TriggerShop()
     {
-        ShopController.GetComponent<ShopController>().OpenShopUI(shop);
+        ShopController.GetComponent<Shop_UI>().OpenShopUI(Shop);
     }
 }

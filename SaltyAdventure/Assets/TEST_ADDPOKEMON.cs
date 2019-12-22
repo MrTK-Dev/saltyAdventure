@@ -6,22 +6,16 @@ public class TEST_ADDPOKEMON : MonoBehaviour
 {
     public void Add()
     {
-        Debug.Log(Pokemon_Party.GetCount());
-
         Spawn();
         Party();
-
-        Debug.Log(Pokemon_Party.GetCount());
-
-        Debug.Log(PokemonData.GetData(Pokemon_Party.GetPokemonData(0, false).Monster).Pokedex_Entry.Description);
     }
 
     void Spawn()
     {
-        BasePokemon Pokemon = gameObject.AddComponent<BasePokemon>();
+        BasePokemon Pokemon = GetComponent<BasePokemon>();
 
         Pokemon.Monster = Monster.bulbasaur;
-        Pokemon.Name = "lelelo";
+        Pokemon.Name = PokemonData.GetData(Monster.bulbasaur).GeneralInformation.Name;
     }
 
     void Party()

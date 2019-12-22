@@ -19,6 +19,8 @@ public static class JSON_PokemonData
 
         //cache
         string Ref = PokemonData.Database[0].GeneralInformation.Reference;
+        string Path_Icon = PokemonData.Database[0].GeneralInformation.Icon;
+        string Path_Icon_1 = PokemonData.Database[0].GeneralInformation.IconShiny;
 
         for (int i = 0; i < PokemonData.Count; i++)
         {
@@ -26,6 +28,8 @@ public static class JSON_PokemonData
                 Database.PokemonData[i].GeneralInformation.Reference = Database.PokemonData[i].GeneralInformation.Name.ToLower(true);
             /*if (Database.PokemonData[i].ID == -1)
                 Database.PokemonData[i].ID = i;*/
+            if (Database.PokemonData[i].GeneralInformation.Icon == Path_Icon)
+                Database.PokemonData[i].GeneralInformation.Icon = "Sheet1/" + Database.PokemonData[i].GeneralInformation.Reference;
         }
 
         DataManagment.WriteToJSON(Database, "PokemonData/Monster");
@@ -50,6 +54,19 @@ public static class JSON_PokemonData
     /// <returns>PokemonData</returns>
     static public PokemonData LoadData(int Index)
     {
+        return LoadDataBase().PokemonData[Index];
+    }
+
+    static public PokemonData LoadData(Monster Monster)
+    {
+        int Index = 0;
+
+        for (int i = 0; i < PokemonData.Count; i++)
+        {
+            if (PokemonData.GetDatabase()[i].GeneralInformation.Monster == Monster)
+                Index = i;
+        }
+
         return LoadDataBase().PokemonData[Index];
     }
 }
@@ -165,8 +182,6 @@ public class PokemonData
                 {
                     Monster = Monster.bulbasaur,
                     Name = "Bulbasaur",
-                    Icon = null,
-                    IconShiny = null,
                     TypePrimus = P_Type.Grass,
                     TypeSecundus = P_Type.Poison
                 },
@@ -256,11 +271,11 @@ public class P_Information
     public Monster Monster;
     public string Name;
     public string Reference;
-    public Sprite Icon; //TODO add path -> string
+    public string Icon; //TODO add path -> string
     /*
      * https://stackoverflow.com/questions/41313398/get-single-sprite-from-sprite-atlas
      */
-    public Sprite IconShiny;
+    public string IconShiny;
     public P_Type TypePrimus;
     public P_Type TypeSecundus;
 }
