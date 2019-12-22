@@ -10,42 +10,45 @@ public static class Logger
 
     static public int Level = 0;
     static public Log_Mode Mode = Log_Mode.Mixed;
-    static public File_Mode ModeFile = File_Mode.Single;
+    static public File_Mode ModeFile = File_Mode.All;
     static readonly string Path = "Debug/Logs/Main.log";
+    static readonly string BasePath = "Debug/Logs/";
     static bool Launched = false;
 
     #endregion
 
     #region static Methods
 
-    static public void Note(Type Class, string Message)
+    static public void Info(Type Class, string Message)
     {
         if (Level == 0)
-            LogMessage(Class, Message, Log_Type.Note);
+            LogMessage(Class, Message, Log_Type.INFO);
     }
 
     static public void Debug(Type Class, string Message)
     {
         if (Level <= 1)
-            LogMessage(Class, Message, Log_Type.Debug);
+            LogMessage(Class, Message, Log_Type.DEBUG);
     }
 
     static public void Warning(Type Class, string Message)
     {
         if (Level <= 2)
-            LogMessage(Class, Message, Log_Type.Warning);
-    }
-
-    static public void ErrorWithoutException(Type Class, string Message)
-    {
-        if (Level <= 3)
-            LogMessage(Class, Message, Log_Type.ErrorWithoutException);
+            LogMessage(Class, Message, Log_Type.WARNING);
     }
 
     static public void Error(Type Class, string Message)
     {
+        if (Level <= 3)
+            LogMessage(Class, Message, Log_Type.ERROR);
+    }
+
+    static public void Exception(Type Class, string Message)
+    {
         if (Level <= 4)
-            LogMessage(Class, Message, Log_Type.Error);
+            LogMessage(Class, Message, Log_Type.EXCEPTION);
+
+        throw new Exception(Message);
     }
 
     #endregion
@@ -54,46 +57,77 @@ public static class Logger
 
     static void LogMessage(Type Class, string Message, Log_Type Type)
     {
-        string FullMessage = "(Class : " + Class.ToString() + ") [" + Type.ToString().ToUpper() + "]: " + Message;
+        string FullMessage = "(CLASS : " + Class.ToString() + ") [" + Type.ToString().ToUpper() + "]: " + Message;
 
         if (Mode == Log_Mode.File || Mode == Log_Mode.Mixed)
-            LogToFile(FullMessage);
+            //LogToFile(FullMessage);
+            TOFILE(Class, Type, FullMessage);
 
         if (Mode == Log_Mode.Console || Mode == Log_Mode.Mixed)
             UnityEngine.Debug.Log(FullMessage);
     }
 
-    static void LogToFile(string Message)
+    static void TOFILE(Type Class, Log_Type Type, string Message)
     {
         if (!Launched)
         {
             Launched = true;
 
-            //Debug(MethodBase.GetCurrentMethod().DeclaringType, "Launching Logging System...");
-
             ClearLogs();
-
-            FileUtils.CreateFile(Path, "|This is the Log File|\n|====================|");
-
-            //Debug(MethodBase.GetCurrentMethod().DeclaringType, "Succefully launched Logging System!");
         }
 
-        File.AppendAllText(FileUtils.GetPath(Path), "\n" + Message);
+        string[] Paths = new string[3];
+
+        Paths[0] = "Main";
+
+        switch (ModeFile)
+        {
+            case File_Mode.Single:
+                break;
+
+            case File_Mode.SpreadByClass:
+                Paths[1] = "/SpreadByClass/" + Class;
+                break;
+
+            case File_Mode.SpreadByType:
+                Paths[2] = "/SpreadByType/" + Type.ToString().ToLower();
+                break;
+
+            case File_Mode.All:
+                Paths[1] = "/SpreadByClass/" + Class;
+                Paths[2] = "/SpreadByType/" + Type.ToString().ToLower();
+                break;
+
+            default:
+                break;
+        }
+
+        for (int i = 0; i < Paths.Length; i++)
+        {
+            if (Paths[i] != null)
+                FileUtils.AppendFile(BasePath + Paths[i] + ".log", Message, "|" + Paths[i] + ".log" + "|\n|====================|");
+        }
     }
+
 
     static void ClearLogs()
     {
-        FileUtils.DeletFile(Path);
+        string Path_All = FileUtils.GetPath(BasePath);
 
-        //Debug(MethodBase.GetCurrentMethod().DeclaringType, "Cleared all .log files");
+        if (Directory.Exists(Path_All))
+            Directory.Delete(Path_All, true);
+
+        Directory.CreateDirectory(Path_All);
+        Directory.CreateDirectory(Path_All + "/SpreadByClass");
+        Directory.CreateDirectory(Path_All + "/SpreadByType");
     }
 
     /* Level System
-     * 0 => Note
+     * 0 => Info
      * 1 => Debug
      * 2 => Warning
-     * 3 => ErrorWithoutException
-     * 4 => Error
+     * 3 => Error
+     * 4 => Exception
      */
 
     #endregion
@@ -109,11 +143,11 @@ public static class Logger
 
     public enum Log_Type
     {
-        Note,
-        Debug,
-        Warning,
-        ErrorWithoutException,
-        Error
+        INFO,
+        DEBUG,
+        WARNING,
+        ERROR,
+        EXCEPTION
     }
 
     public enum File_Mode

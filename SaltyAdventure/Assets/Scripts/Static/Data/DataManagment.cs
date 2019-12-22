@@ -69,6 +69,25 @@ public static class FileUtils
 
     #endregion
 
+    #region Append Files
+
+    public static void AppendFile(string Path, string Text, string StartMesssage)
+    {
+        if (!File.Exists(GetPath(Path)))
+        {
+            CreateFile(Path, StartMesssage);
+        }
+
+        File.AppendAllText(GetPath(Path), "\n" + Text);
+    }
+
+    public static void AppendFile(string Path, string Text)
+    {
+        AppendFile(Path, Text, "");
+    }
+
+    #endregion
+
     #region Delete File
 
     public static void DeletFile(string Path)
