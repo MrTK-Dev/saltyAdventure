@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
 using System.Reflection;
 using UnityEngine;
 
@@ -73,10 +74,17 @@ public static class FileUtils
 
     public static void AppendFile(string Path, string Text, string StartMesssage)
     {
+        
+
         if (!File.Exists(GetPath(Path)))
         {
             CreateFile(Path, StartMesssage);
         }
+
+        else if (GetByteCount(Path) > 1000000) //10mb //10000000
+            RemoveLines(Path, 2, 1000);
+
+        Debug.Log(GetByteCount(Path));
 
         File.AppendAllText(GetPath(Path), "\n" + Text);
     }
@@ -84,6 +92,28 @@ public static class FileUtils
     public static void AppendFile(string Path, string Text)
     {
         AppendFile(Path, Text, "");
+    }
+
+    #endregion
+
+    #region Read File
+
+    public static string ReadFile(string Path)
+    {
+        return File.ReadAllText(GetPath(Path));
+    }
+
+    public static List<string> ReadAllLines(string Path)
+    {
+        List<string> List = new List<string>();
+        string [] Lines = File.ReadAllLines(GetPath(Path));
+
+        for (int i = 0; i < Lines.Length; i++)
+        {
+            List.Add(Lines[i]);
+        }
+
+        return List;
     }
 
     #endregion
@@ -100,6 +130,32 @@ public static class FileUtils
         }
     }
 
+    public static void ClearFile(string Path)
+    {
+
+    }
+
+    #endregion
+
+    #region Checker
+
+    static public void RemoveLines(string Path, int Start, int End)
+    {
+        List<string> BufferedLines = ReadAllLines(Path);
+
+        for (int i = Start; i < End; i++)
+        {
+            BufferedLines.Remove(BufferedLines[i]);
+        }
+
+        for (int i = 0; i < BufferedLines.Count; i++)
+        {
+
+
+            AppendFile(Path, BufferedLines[i]);
+        }
+    }
+
     #endregion
 
     #region Help Methods
@@ -107,6 +163,16 @@ public static class FileUtils
     public static string GetPath(string Path)
     {
         return Application.dataPath + "/" + Path;
+    }
+
+    public static int GetByteCount(string Path)
+    {
+        return (int)GetFileInfo(Path).Length;
+    }
+
+    public static FileInfo GetFileInfo(string Path)
+    {
+        return new FileInfo(GetPath(Path));
     }
 
     #endregion
