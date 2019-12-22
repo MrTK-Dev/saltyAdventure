@@ -6,6 +6,7 @@ public static class Shop
 {
     public static List<Item_Item> Stock = new List<Item_Item>();
     public static ShopData ActiveShop;
+    //public static Item_Item ActiveItem;
 
     public static void SetActiveShop(Shop_Shop Shop)
     {
@@ -14,6 +15,11 @@ public static class Shop
     }
 
     public static void BuyItem(Item_Item Item, int Count)
+    {
+
+    }
+
+    public static void SellItem(Item_Item Item, int Count)
     {
 
     }

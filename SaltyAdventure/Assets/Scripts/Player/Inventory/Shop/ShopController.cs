@@ -128,7 +128,7 @@ public class ShopController : MonoBehaviour
             {
                 newShopSlot = Instantiate(ShopSlotPreFab, new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
                 newShopSlot.transform.SetParent(ContentList);
-                newShopSlot.GetComponent<ShopSlot>().AddItem(InventoryController.instance.FullItemList[i]);
+                //newShopSlot.GetComponent<ShopSlot>().AddItem(InventoryController.instance.FullItemList[i]);
             }
         }
     }

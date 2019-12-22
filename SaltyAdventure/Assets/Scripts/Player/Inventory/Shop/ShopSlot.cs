@@ -9,19 +9,21 @@ public class ShopSlot : MonoBehaviour
     public Text Price;
     public Image Icon;
 
-    Item newItem;
+    Item_Item Item;
 
-    public void AddItem(Item item)
+    public void AddItem(ItemData ItemData)
     {
-        newItem = item;
+        Item = ItemData.Item;
 
-        Name.text = item.name;
-        Price.text = item.Price.ToString() + "$";
-        Icon.sprite = item.icon;
+        Name.text = ItemData.Name;
+        Price.text = ItemData.Price.ToString() + "$";
+        //Icon.sprite = ItemData.Icon;
     }
 
     public void OnButtonClick()
     {
-        ShopController.instance.ChooseItem(newItem);
+        //ShopController.instance.ChooseItem(Item);
+
+        Shop_UI.instance.OnClickSelection(Item);
     }
 }
