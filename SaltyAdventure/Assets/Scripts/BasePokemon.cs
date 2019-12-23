@@ -40,9 +40,9 @@ public class BasePokemon
 
         LiveStats.HP = Data.BaseStats.HP;
         LiveStats.Attack = Data.BaseStats.Attack;
-        LiveStats.Defence = Data.BaseStats.Defense;
+        LiveStats.Defense = Data.BaseStats.Defense;
         LiveStats.SpecialAttack = Data.BaseStats.SpecialAttack;
-        LiveStats.SpecialDefence = Data.BaseStats.SpecialDefense;
+        LiveStats.SpecialDefense = Data.BaseStats.SpecialDefense;
         LiveStats.Speed = Data.BaseStats.Speed;
 
         /*
@@ -73,9 +73,9 @@ public class P_Stats
 {
     public int HP;
     public int Attack;
-    public int Defence;
+    public int Defense;
     public int SpecialAttack;
-    public int SpecialDefence;
+    public int SpecialDefense;
     public int Speed;
 }
 
@@ -85,9 +85,9 @@ public class Live_Stats
     public int HP;
     //reset after battle
     public int Attack;
-    public int Defence;
+    public int Defense;
     public int SpecialAttack;
-    public int SpecialDefence;
+    public int SpecialDefense;
     public int Speed;
 }
 
@@ -99,9 +99,9 @@ public class DeterminantValues
 {
     public int HP;
     public int Attack;
-    public int Defence;
+    public int Defense;
     public int SpecialAttack;
-    public int SpecialDefence;
+    public int SpecialDefense;
     public int Speed;
 }
 
@@ -114,9 +114,9 @@ public class EffortValues
 {
     public int HP = 0;
     public int Attack = 0;
-    public int Defence = 0;
+    public int Defense = 0;
     public int SpecialAttack = 0;
-    public int SpecialDefence = 0;
+    public int SpecialDefense = 0;
     public int Speed = 0;
 }
 

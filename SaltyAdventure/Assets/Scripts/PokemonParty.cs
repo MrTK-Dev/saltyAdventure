@@ -34,23 +34,23 @@ public class PokemonParty : MonoBehaviour
 
             "DVs: " + SelectedPokemon.DValues.HP + ", "
             + SelectedPokemon.DValues.Attack + ", "
-            + SelectedPokemon.DValues.Defence + ", "
+            + SelectedPokemon.DValues.Defense + ", "
             + SelectedPokemon.DValues.SpecialAttack + ", "
-            + SelectedPokemon.DValues.SpecialDefence + ", "
+            + SelectedPokemon.DValues.SpecialDefense + ", "
             + SelectedPokemon.DValues.Speed + "\n" +
 
             "EVs: " + SelectedPokemon.EValues.HP + ", "
             + SelectedPokemon.EValues.Attack + ", "
-            + SelectedPokemon.EValues.Defence + ", "
+            + SelectedPokemon.EValues.Defense + ", "
             + SelectedPokemon.EValues.SpecialAttack + ", "
-            + SelectedPokemon.EValues.SpecialDefence + ", "
+            + SelectedPokemon.EValues.SpecialDefense + ", "
             + SelectedPokemon.EValues.Speed + "\n" +
 
             "Stats: " + SelectedPokemon.Stats.HP + ", "
             + SelectedPokemon.Stats.Attack + ", "
-            + SelectedPokemon.Stats.Defence + ", "
+            + SelectedPokemon.Stats.Defense + ", "
             + SelectedPokemon.Stats.SpecialAttack + ", "
-            + SelectedPokemon.Stats.SpecialDefence + ", "
+            + SelectedPokemon.Stats.SpecialDefense + ", "
             + SelectedPokemon.Stats.Speed
             ;
     }

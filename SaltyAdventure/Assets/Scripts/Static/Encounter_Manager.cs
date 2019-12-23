@@ -46,12 +46,6 @@ public static class Encounter_Manager
 
         Pokemon.Stats = GetStats(Pokemon);
 
-
-
-
-
-
-
         return Pokemon;
     }
 
@@ -118,9 +112,9 @@ public static class Encounter_Manager
         {
             HP = List[0],
             Attack = List[1],
-            Defence = List[2],
+            Defense = List[2],
             SpecialAttack = List[3],
-            SpecialDefence = List[4],
+            SpecialDefense = List[4],
             Speed = List[5],
         };
 
@@ -145,9 +139,9 @@ public static class Encounter_Manager
         {
             HP = Random.Range(0, 32),
             Attack = Random.Range(0, 32),
-            Defence = Random.Range(0, 32),
+            Defense = Random.Range(0, 32),
             SpecialAttack = Random.Range(0, 32),
-            SpecialDefence = Random.Range(0, 32),
+            SpecialDefense = Random.Range(0, 32),
             Speed = Random.Range(0, 32)
         };
 

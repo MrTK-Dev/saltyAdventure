@@ -11,14 +11,14 @@ public static class StatCalculator
         {
             float Value = ((2 * Base + DV + (EV / 4)) * Level / 100) + Level + 10;
 
-            return Mathf.RoundToInt(Value);
+            return Mathf.FloorToInt(Value);
         }
 
         else
         {
             float Value = (((2 * Base + DV + (EV / 4)) * Level / 100) + 5) * Natures.GetValue(Nature, Stat);
 
-            return Mathf.RoundToInt(Value);
+            return Mathf.FloorToInt(Value);
         }
     }
 
@@ -54,8 +54,8 @@ public static class StatCalculator
 
                 case P_Stats_All.Defense:
                     Base = BaseStats.Defense;
-                    DV = DValues.Defence;
-                    EV = EValues.Defence;
+                    DV = DValues.Defense;
+                    EV = EValues.Defense;
                     break;
 
                 case P_Stats_All.SpecialAttack:
@@ -66,8 +66,8 @@ public static class StatCalculator
 
                 case P_Stats_All.SpecialDefense:
                     Base = BaseStats.SpecialDefense;
-                    DV = DValues.SpecialDefence;
-                    EV = EValues.SpecialDefence;
+                    DV = DValues.SpecialDefense;
+                    EV = EValues.SpecialDefense;
                     break;
 
                 case P_Stats_All.Speed:
