@@ -29,6 +29,9 @@ public class PokemonParty : MonoBehaviour
         InfoText.text =
             "Name: " + SelectedPokemon.Name + "\n" +
             "Monster: " + SelectedPokemon.Monster + "\n" +
+            "Ability: " + SelectedPokemon.Ability + "\n" +
+            "Happiness: " + SelectedPokemon.Happiness + "\n" +
+            "Shiny: " + SelectedPokemon.isShiny + "\n" +
             "Nature: " + SelectedPokemon.Nature + "\n" +
             "Level: " + SelectedPokemon.Level + "\n" +
 

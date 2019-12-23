@@ -5,6 +5,13 @@ using UnityEngine;
 
 public static class Natures
 {
+    /// <summary>
+    /// Checks if the given Stat is set in the given Nature.
+    /// Returns '0.9 | 1.0 | 1.1'.
+    /// </summary>
+    /// <param name="Nature">Nature</param>
+    /// <param name="Stat">Stat</param>
+    /// <returns>Value</returns>
     public static float GetValue(P_Nature Nature, P_Stats_All Stat)
     {
         NatureData NData = NatureData.GetData(Nature);
@@ -18,6 +25,11 @@ public static class Natures
         return 1f;
     }
 
+    /// <summary>
+    /// Returns a random Nature from the Database.
+    /// Starts at 1 because of the placeholder
+    /// </summary>
+    /// <returns>random Nature</returns>
     public static P_Nature GetRandomNature()
     {
         return NatureData.GetData(Random.Range(1, NatureData.GetDatabase().Length - 1)).Nature;

@@ -8,17 +8,17 @@ public class BasePokemon
 
     public Monster Monster = Monster.none;
     public P_Nature Nature = P_Nature.none;
-
+    public P_Ability Ability = P_Ability.none;
     public Item_Item HeldItem = Item_Item.none;
 
     public P_Trainer TrainerInfo;
     public P_Stats Stats;
-    public Live_Stats LiveStats;
+    public Live_Stats LiveStats = new Live_Stats();
     public DeterminantValues DValues;
     public EffortValues EValues;
 
+    public Gender Gender = Gender.None;
     public bool isShiny = false;
-
     public int Level = 1;
     public int Happiness;
 
@@ -82,13 +82,13 @@ public class P_Stats
 [System.Serializable]
 public class Live_Stats
 {
-    public int HP;
+    public int HP = 0;
     //reset after battle
-    public int Attack;
-    public int Defense;
-    public int SpecialAttack;
-    public int SpecialDefense;
-    public int Speed;
+    public int Attack = 0;
+    public int Defense = 0;
+    public int SpecialAttack = 0;
+    public int SpecialDefense = 0;
+    public int Speed = 0;
 }
 
 /// <summary>

@@ -7,19 +7,15 @@ public static class StatCalculator
 {
     static int CalculateStat(P_Stats_All Stat, int Base, int DV, int EV, int Level, P_Nature Nature)
     {
-        if (Stat == Stats[0])
-        {
-            float Value = ((2 * Base + DV + (EV / 4)) * Level / 100) + Level + 10;
+        float Value;
 
-            return Mathf.FloorToInt(Value);
-        }
+        if (Stat == Stats[0])
+            Value = ((2 * Base + DV + (EV / 4)) * Level / 100) + Level + 10;
 
         else
-        {
-            float Value = (((2 * Base + DV + (EV / 4)) * Level / 100) + 5) * Natures.GetValue(Nature, Stat);
+            Value = (((2 * Base + DV + (EV / 4)) * Level / 100) + 5) * Natures.GetValue(Nature, Stat);
 
-            return Mathf.FloorToInt(Value);
-        }
+        return Mathf.FloorToInt(Value);
     }
 
     public static List<int> CalculateStats(BasePokemon Pokemon)

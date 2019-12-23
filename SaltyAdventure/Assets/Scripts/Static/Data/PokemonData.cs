@@ -126,7 +126,9 @@ public class PokemonData
                     Monster = Monster.bulbasaur,
                     Name = "Bulbasaur",
                     TypePrimus = P_Type.Grass,
-                    TypeSecundus = P_Type.Poison
+                    TypeSecundus = P_Type.Poison,
+                    Ability_0 = P_Ability.Overgrow,
+                    Ability_hidden = P_Ability.Chlorophyll
                 },
                 Pokedex_Entry = new P_Pokedex_Entry()
                 {
@@ -184,7 +186,9 @@ public class PokemonData
                     Monster = Monster.ivysaur,
                     Name = "Ivysaur",
                     TypePrimus = P_Type.Grass,
-                    TypeSecundus = P_Type.Poison
+                    TypeSecundus = P_Type.Poison,
+                    Ability_0 = P_Ability.Overgrow,
+                    Ability_hidden = P_Ability.Chlorophyll
                 },
                 Pokedex_Entry = new P_Pokedex_Entry()
                 {
@@ -284,6 +288,9 @@ public class P_Information
     public string IconShiny = "";
     public P_Type TypePrimus = P_Type.none;
     public P_Type TypeSecundus = P_Type.none;
+    public P_Ability Ability_0 = P_Ability.none;
+    public P_Ability Ability_1 = P_Ability.none;
+    public P_Ability Ability_hidden = P_Ability.none;
 }
 
 [System.Serializable]
@@ -433,6 +440,13 @@ public enum Monster
     none,
     bulbasaur,
     ivysaur
+}
+
+public enum P_Ability
+{
+    none,
+    Overgrow,
+    Chlorophyll
 }
 
 #endregion

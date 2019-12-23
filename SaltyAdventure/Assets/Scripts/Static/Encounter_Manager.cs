@@ -29,8 +29,11 @@ public static class Encounter_Manager
             Name = PokemonData.GeneralInformation.Name,
             Nature = Natures.GetRandomNature(),
             Level = GetLevel(Place, PokemonData),
+            Ability = GetRandomAbility(PokemonData),
+            isShiny = CheckForShiny(),
+            Happiness = PokemonData.Breeding.BaseHappiness,
+            Gender = GetRandomGender(PokemonData),
 
-            //LiveStats = GetLiveStats(),
             TrainerInfo = new P_Trainer()
             {
                 Place = Place.Place//,
@@ -40,11 +43,11 @@ public static class Encounter_Manager
             },
 
             EValues = new EffortValues(),
-
             DValues = GetGenes()
         };
 
         Pokemon.Stats = GetStats(Pokemon);
+        ResetLiveStats(Pokemon);
 
         return Pokemon;
     }
@@ -146,5 +149,61 @@ public static class Encounter_Manager
         };
 
         return Genes;
+    }
+
+    static P_Ability GetRandomAbility(PokemonData Pokemon)
+    {
+        if (Pokemon.GeneralInformation.Ability_1 != P_Ability.none)
+        {
+            if (Random.Range(0, 2) == 0)
+                return Pokemon.GeneralInformation.Ability_0;
+            else
+                return Pokemon.GeneralInformation.Ability_1;
+        }
+
+        else if (Pokemon.GeneralInformation.Ability_0 != P_Ability.none)
+            return Pokemon.GeneralInformation.Ability_0;
+
+        Logger.Error(MethodBase.GetCurrentMethod().DeclaringType, Pokemon.GeneralInformation.Name + " does not have a valid Ability!");
+        return P_Ability.none;
+    }
+
+    public static void ResetLiveStats(BasePokemon Pokemon, bool HP)
+    {
+        if (HP)
+            Pokemon.LiveStats.HP = Pokemon.Stats.HP;
+
+        Pokemon.LiveStats.Attack = Pokemon.Stats.Attack;
+        Pokemon.LiveStats.Defense = Pokemon.Stats.Defense;
+        Pokemon.LiveStats.SpecialAttack = Pokemon.Stats.SpecialAttack;
+        Pokemon.LiveStats.SpecialDefense = Pokemon.Stats.SpecialDefense;
+        Pokemon.LiveStats.Speed = Pokemon.Stats.Speed;
+    }
+
+    public static void ResetLiveStats(BasePokemon Pokemon)
+    {
+        ResetLiveStats(Pokemon, true);
+    }
+
+    static bool CheckForShiny()
+    {
+        int Chance = 4096;
+
+        return Random.Range(0, Chance) == 0;
+    }
+
+    static Gender GetRandomGender(PokemonData Pokemon)
+    {
+        if (Pokemon.Breeding.hasGender)
+        {
+            if (Pokemon.Breeding.MaleRatio >= Random.Range(0f, 1f))
+                return Gender.Male;
+            
+            else
+                return Gender.Female;
+        }
+
+        else
+            return Gender.None;
     }
 }
