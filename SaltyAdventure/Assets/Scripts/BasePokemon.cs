@@ -6,15 +6,18 @@ public class BasePokemon
 {
     public string Name;
 
-    public Monster Monster;
+    public Monster Monster = Monster.none;
+    public P_Nature Nature = P_Nature.none;
 
-    public Item HeldItem;
+    public Item_Item HeldItem = Item_Item.none;
 
     public P_Trainer TrainerInfo;
     public P_Stats Stats;
     public Live_Stats LiveStats;
+    public DeterminantValues DValues;
+    public EffortValues EValues;
 
-    public bool isShiny;
+    public bool isShiny = false;
 
     public int Level = 1;
     public int Happiness;
@@ -35,12 +38,12 @@ public class BasePokemon
         /**/
         PokemonData Data = PokemonData.GetData(Monster);
 
-        LiveStats.HP = Data.BaseStats.HPStat;
-        LiveStats.Attack = Data.BaseStats.AttackStat;
-        LiveStats.Defence = Data.BaseStats.DefenceStat;
-        LiveStats.SpecialAttack = Data.BaseStats.SpAttackStat;
-        LiveStats.SpecialDefence = Data.BaseStats.SpDefenceStat;
-        LiveStats.Speed = Data.BaseStats.SpeedStat;
+        LiveStats.HP = Data.BaseStats.HP;
+        LiveStats.Attack = Data.BaseStats.Attack;
+        LiveStats.Defence = Data.BaseStats.Defense;
+        LiveStats.SpecialAttack = Data.BaseStats.SpecialAttack;
+        LiveStats.SpecialDefence = Data.BaseStats.SpecialDefense;
+        LiveStats.Speed = Data.BaseStats.Speed;
 
         /*
         LiveStats.HP = bp.Kind.BaseStats.HPStat;
@@ -53,13 +56,15 @@ public class BasePokemon
     }
 }
 
+#region SubClasses
+
 [System.Serializable]
 public class P_Trainer
 {
     public string TrainerName;
     public int TrainerID;
 
-    public string Place;
+    public Place Place = Place.none;
     public string Time;
 }
 
@@ -85,3 +90,68 @@ public class Live_Stats
     public int SpecialDefence;
     public int Speed;
 }
+
+/// <summary>
+/// Every Stat is a value between 0 - 31
+/// </summary>
+[System.Serializable]
+public class DeterminantValues
+{
+    public int HP;
+    public int Attack;
+    public int Defence;
+    public int SpecialAttack;
+    public int SpecialDefence;
+    public int Speed;
+}
+
+/// <summary>
+/// Every Stat is a value between 0 - 252.
+/// Total Maximum is 510
+/// </summary>
+[System.Serializable]
+public class EffortValues
+{
+    public int HP = 0;
+    public int Attack = 0;
+    public int Defence = 0;
+    public int SpecialAttack = 0;
+    public int SpecialDefence = 0;
+    public int Speed = 0;
+}
+
+#endregion
+
+#region Enums
+
+public enum P_Nature
+{
+    none,
+    Hardy,
+	Lonely,
+	Brave,
+	Adamant,
+	Naughty,
+	Bold,
+	Docile,
+	Relaxed,
+	Impish,
+	Lax,
+	Timid,
+	Hasty,
+	Serious,
+	Jolly,
+	Naive,
+	Modest,
+	Mild,
+	Quiet,
+	Bashful,
+	Rash,
+	Calm,
+	Gentle,
+	Sassy,
+	Careful,
+	Quirky
+}
+
+#endregion

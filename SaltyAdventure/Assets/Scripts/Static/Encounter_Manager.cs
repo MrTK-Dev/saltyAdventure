@@ -26,8 +26,31 @@ public static class Encounter_Manager
         BasePokemon Pokemon = new BasePokemon
         {
             Monster = PokemonData.GeneralInformation.Monster,
-            Name = "Olaf"
+            Name = PokemonData.GeneralInformation.Name,
+            Nature = Natures.GetRandomNature(),
+            Level = GetLevel(Place, PokemonData),
+
+            //LiveStats = GetLiveStats(),
+            TrainerInfo = new P_Trainer()
+            {
+                Place = Place.Place//,
+                //Time
+                //TrainerID -> TrainerCard
+                //TrainerName -> TrainerCard
+            },
+
+            EValues = new EffortValues(),
+
+            DValues = GetGenes()
         };
+
+        Pokemon.Stats = GetStats(Pokemon);
+
+
+
+
+
+
 
         return Pokemon;
     }
@@ -35,7 +58,7 @@ public static class Encounter_Manager
     static Monster GetByRarity(PlaceData PlaceData)
     {
         float RandomNumber = Random.Range(0f, 100f);
-        Logger.Debug(MethodBase.GetCurrentMethod().DeclaringType, "RandomNumber = " + RandomNumber);
+        //Logger.Debug(MethodBase.GetCurrentMethod().DeclaringType, "RandomNumber = " + RandomNumber);
 
         List<int> Chances = new List<int>();
 
@@ -81,9 +104,53 @@ public static class Encounter_Manager
 
         else
         {
-            Logger.Error(MethodBase.GetCurrentMethod().DeclaringType, "Could not find a fitting Monster - Please check to Method!");
+            Logger.Error(MethodBase.GetCurrentMethod().DeclaringType, "Could not find a fitting Monster - Please check the Method!");
 
             return PlaceData.MonsterTree[0].Monster;
         }
+    }
+
+    static P_Stats GetStats(BasePokemon Pokemon)
+    {
+        List<int> List = StatCalculator.CalculateStats(Pokemon);
+
+        P_Stats newStats = new P_Stats()
+        {
+            HP = List[0],
+            Attack = List[1],
+            Defence = List[2],
+            SpecialAttack = List[3],
+            SpecialDefence = List[4],
+            Speed = List[5],
+        };
+
+        return newStats;
+    }
+
+    static int GetLevel(PlaceData Place, PokemonData Pokemon)
+    {
+        for (int i = 0; i < Place.MonsterTree.Length; i++)
+        {
+            if (Place.MonsterTree[i].Monster == Pokemon.GeneralInformation.Monster)
+                return Random.Range(Place.MonsterTree[i].Levels[0], Place.MonsterTree[i].Levels[1]);
+        }
+
+        Logger.Error(MethodBase.GetCurrentMethod().DeclaringType, "For some Reason the choosen Monster is not present in the PlaceData. Method returns '1'.");
+        return 1;
+    }
+
+    static DeterminantValues GetGenes()
+    {
+        DeterminantValues Genes = new DeterminantValues()
+        {
+            HP = Random.Range(0, 32),
+            Attack = Random.Range(0, 32),
+            Defence = Random.Range(0, 32),
+            SpecialAttack = Random.Range(0, 32),
+            SpecialDefence = Random.Range(0, 32),
+            Speed = Random.Range(0, 32)
+        };
+
+        return Genes;
     }
 }

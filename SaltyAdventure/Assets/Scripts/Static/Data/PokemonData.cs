@@ -88,74 +88,17 @@ public class PokemonData
 {
     #region Variables
 
-    public P_Information GeneralInformation = new P_Information()
-    {
-        Monster = Monster.none,
-        Name = "Placeholder Name",
-        //Reference = "placeholder_name", //TODO override inside class (like MoveData)
-        Icon = null,
-        IconShiny = null,
-        TypePrimus = P_Type.none,
-        TypeSecundus = P_Type.none
-    };
+    public P_Information GeneralInformation = new P_Information();
 
-    public P_Pokedex_Entry Pokedex_Entry = new P_Pokedex_Entry()
-    {
-        Index = -1,
-        Description = "Placeholder Description"
-    };
+    public P_Pokedex_Entry Pokedex_Entry = new P_Pokedex_Entry();
 
-    public P_BaseStats BaseStats = new P_BaseStats()
-    {
-        HPStat = 0,
-        AttackStat = 0,
-        DefenceStat = 0,
-        SpAttackStat = 0,
-        SpDefenceStat = 0,
-        SpeedStat = 0
-    };
+    public P_BaseStats BaseStats = new P_BaseStats();
 
-    public P_Evolution Evolution = new P_Evolution()
-    {
-        EvolutionType = P_EvolutionType.none,
-        EvolutionPokemon = Monster.none,
-        Level = -1,
-        Item = null
-    };
+    public P_Evolution Evolution = new P_Evolution();
 
-    public P_Moves[] MoveList = new P_Moves[]
-    {
-        new P_Moves()
-        {
-            Move = Move.none,
-            MoveTree = P_MoveTree.LevelUp,
-            LvlUP = -1
-        }
-    };
+    public P_Moves[] MoveList;
 
-    public P_Breeding Breeding = new P_Breeding()
-    {
-        hasGender = true,
-        MaleRatio = -1,
-        CatchRate = 0,
-        YieldExp = 0,
-        YieldEV = new P_Breeding.P_EVYield()
-        {
-            HP = 0,
-            Att = 0,
-            Def = 0,
-            SAt = 0,
-            SDe = 0,
-            Sp = 0
-        },
-        LvlRate = P_LvLRate.Medium,
-        BaseHappiness = 0,
-        HatchTime = new int[] { 0, 0 },
-        EggGroups = new P_EggGroup[]
-        {
-            P_EggGroup.none
-        }
-    };
+    public P_Breeding Breeding = new P_Breeding();
 
     #endregion
 
@@ -192,12 +135,12 @@ public class PokemonData
                 },
                 BaseStats = new P_BaseStats()
                 {
-                    HPStat = 45,
-                    AttackStat = 49,
-                    DefenceStat = 49,
-                    SpAttackStat = 65,
-                    SpDefenceStat = 65,
-                    SpeedStat = 45
+                    HP = 45,
+                    Attack = 49,
+                    Defense = 49,
+                    SpecialAttack = 65,
+                    SpecialDefense = 65,
+                    Speed = 45
                 },
                 Evolution = new P_Evolution()
                 {
@@ -250,12 +193,12 @@ public class PokemonData
                 },
                 BaseStats = new P_BaseStats()
                 {
-                    HPStat = 60,
-                    AttackStat = 62,
-                    DefenceStat = 63,
-                    SpAttackStat = 80,
-                    SpDefenceStat = 80,
-                    SpeedStat = 60
+                    HP = 60,
+                    Attack = 62,
+                    Defense = 63,
+                    SpecialAttack = 80,
+                    SpecialDefense = 80,
+                    Speed = 60
                 },
                 Evolution = new P_Evolution()
                 {
@@ -331,23 +274,23 @@ public class PokemonData
 [System.Serializable]
 public class P_Information
 {
-    public Monster Monster;
-    public string Name;
-    public string Reference;
-    public string Icon; //TODO add path -> string
+    public Monster Monster = Monster.none;
+    public string Name = "Placeholder Name";
+    public string Reference = "Placeholder Reference";
+    public string Icon = ""; //add path -> string
     /*
      * https://stackoverflow.com/questions/41313398/get-single-sprite-from-sprite-atlas
      */
-    public string IconShiny;
-    public P_Type TypePrimus;
-    public P_Type TypeSecundus;
+    public string IconShiny = "";
+    public P_Type TypePrimus = P_Type.none;
+    public P_Type TypeSecundus = P_Type.none;
 }
 
 [System.Serializable]
 public class P_Pokedex_Entry
 {
-    public int Index;
-    public string Description;
+    public int Index = -1;
+    public string Description = "Placeholder Description";
 }
 
 /// <summary>
@@ -357,22 +300,22 @@ public class P_Pokedex_Entry
 [System.Serializable]
 public class P_BaseStats
 {
-    public int HPStat;
+    public int HP;
 
-    public int AttackStat;
-    public int DefenceStat;
+    public int Attack;
+    public int Defense;
 
-    public int SpAttackStat;
-    public int SpDefenceStat;
+    public int SpecialAttack;
+    public int SpecialDefense;
 
-    public int SpeedStat;
+    public int Speed;
 }
 
 [System.Serializable]
 public class P_Evolution
 {
-    public P_EvolutionType EvolutionType;
-    public Monster EvolutionPokemon;
+    public P_EvolutionType EvolutionType = P_EvolutionType.none;
+    public Monster EvolutionPokemon = Monster.none;
     public int Level;
     public Item Item;
 }
@@ -380,22 +323,22 @@ public class P_Evolution
 [System.Serializable]
 public class P_Moves
 {
-    public Move Move;
-    public P_MoveTree MoveTree;
+    public Move Move = Move.none;
+    public P_MoveTree MoveTree = P_MoveTree.LevelUp;
     public int LvlUP;
 }
 
 [System.Serializable]
 public class P_Breeding
 {
-    public bool hasGender;
+    public bool hasGender = true;
     public float MaleRatio;
 
     public float CatchRate;
     public int YieldExp;
     public P_EVYield YieldEV;
-    public P_LvLRate LvlRate;
-    public int BaseHappiness;
+    public P_LvLRate LvlRate = P_LvLRate.Medium;
+    public int BaseHappiness = 70;
 
     public int[] HatchTime = new int[2];
     public P_EggGroup[] EggGroups;
