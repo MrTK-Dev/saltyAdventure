@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlaceData
 {
+    #region Variables
+
     public Place Place = Place.none;
     public string Name = "Placeholder Name";
     public string Description = "Placeholder Description";
@@ -12,6 +14,10 @@ public class PlaceData
 
     public static int Count { get { return Database.Length; } }
     public static PlaceData[] Database;
+
+    #endregion
+
+    #region Database
 
     static PlaceData()
     {
@@ -33,12 +39,22 @@ public class PlaceData
                     {
                         Monster = Monster.bulbasaur,
                         Levels = new int[] {5, 10},
-                        Rarity = 0.5f
+                        Rarity = 50
+                    },
+                    new Place_MonsterTree()
+                    {
+                        Monster = Monster.ivysaur,
+                        Levels = new int[] {20, 25},
+                        Rarity = 30
                     }
                 }
-            }
+            }   //Route 1
         };
     }
+
+    #endregion
+
+    #region Methods
 
     public static PlaceData GetData(int Index)
     {
@@ -62,6 +78,8 @@ public class PlaceData
     {
         return Database;
     }
+
+    #endregion
 }
 
 public enum Place
@@ -74,6 +92,6 @@ public class Place_MonsterTree
 {
     public Monster Monster = Monster.none;
     public int[] Levels = new int[2];
-    public float Rarity;
+    public int Rarity;
     //public Kindofplace
 }

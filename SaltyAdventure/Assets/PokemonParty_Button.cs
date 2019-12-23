@@ -23,6 +23,7 @@ public class PokemonParty_Button : MonoBehaviour
 
         Icon.SetActive(true);
         Icon.GetComponentInChildren<Image>().sprite = SpriteSheetLoader.GetSprite(ActivePokemon.Monster);
+
         Name.text = ActivePokemon.Name;
     }
 }

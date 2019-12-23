@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BasePokemon : MonoBehaviour
+public class BasePokemon
 {
     public string Name;
 

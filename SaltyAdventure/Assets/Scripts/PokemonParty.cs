@@ -7,15 +7,17 @@ public class PokemonParty : MonoBehaviour
 {
     public GameObject ButtonPartent;
 
-    public List<BasePokemon> List;
+    public List<BasePokemon> PList;
 
     public void UpdateUI()
     {
-        List = Pokemon_Party.GetPokemonList();
+        PList = Pokemon_Party.GetPokemonList();
 
-        for (int i = 0; i < List.Count; i++)
+        for (int i = 0; i < PList.Count; i++)
         {
-            ButtonPartent.transform.GetChildren()[i].GetComponentInChildren<PokemonParty_Button>().AddtoUI(List[i]);
+            ButtonPartent.transform.GetChildren()[i].GetComponentInChildren<PokemonParty_Button>().AddtoUI(PList[i]);
+
+            Logger.Debug(GetType(), PList[i].Name);
         }
     }
 }

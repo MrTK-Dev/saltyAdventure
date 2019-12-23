@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
 
 public static class Pokemon_Party
@@ -23,25 +24,33 @@ public static class Pokemon_Party
 
     static public void AddPokemonToParty(BasePokemon Pokemon)
     {
-        CheckForSpace();
-
-        if (Count >= 6)
+        if (Pokemon != null)
         {
-            Debug.Log("Party is full; " + Pokemon.Name + " could not get added.");
-        }
 
-        else
-        {
-            for (int i = 0; i < List.Length; i++)
+            CheckForSpace();
+
+            if (Count >= 6)
             {
-                if (List[i] == null)
-                {
-                    List[i] = Pokemon;
+                Debug.Log("Party is full; " + Pokemon.Name + " could not get added.");
+            }
 
-                    break;
+            else
+            {
+                for (int i = 0; i < List.Length; i++)
+                {
+                    if (List[i] == null)
+                    {
+                        List[i] = Pokemon;
+
+                        Logger.Debug(MethodBase.GetCurrentMethod().DeclaringType, "Added " + Pokemon.Name + " to the Party");
+
+                        break;
+                    }
                 }
             }
         }
+
+        else Logger.Error(MethodBase.GetCurrentMethod().DeclaringType, "You are trying to add a Pokemon that is = null!");
     }
 
     static public void RemovePokemonFromParty(BasePokemon Pokemon)
@@ -95,6 +104,8 @@ public static class Pokemon_Party
             if (List[i] != null)
             {
                 newList.Add(List[i]);
+
+                //Logger.Debug(MethodBase.GetCurrentMethod().DeclaringType, "Added " + List[i].Name + " to the List.");
             }
         }
 

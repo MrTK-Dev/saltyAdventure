@@ -8,24 +8,19 @@ public class TriggerGrass : MonoBehaviour
     public int BaseChance = 50;
     int RandomFL;
     int ActualChance;
-    //private readonly Place Place = Place.Route1;
+    private readonly Place Place = Place.Route1;
 
     public void EnemySpawnEvent() {
         ActualChance = 100 / BaseChance;
         RandomFL = Random.Range(0, ActualChance);
 
-        if (RandomFL == 0) {
-            //call Battle Scene
-            Logger.Info(GetType(), "An wild Enemy appears!");
-            Logger.Debug(GetType(), "An wild Enemy appears!");
-            Logger.Warning(GetType(), "An wild Enemy appears!");
-            Logger.Error(GetType(), "An wild Enemy appears!");
-            Logger.Exception(GetType(), "An wild Enemy appears!");
-            
+        if (RandomFL == 0)
+        {
+            Encounter_Manager.Encounter(Place);
 
-            //Debug.Log(PlaceData.GetData(Place).Name);
-
-        } else {
+        }
+        else
+        {
             //nothing happens
             //Debug.Log(RandomFL);
         }

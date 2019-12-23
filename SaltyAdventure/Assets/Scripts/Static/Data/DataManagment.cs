@@ -74,8 +74,6 @@ public static class FileUtils
 
     public static void AppendFile(string Path, string Text, string StartMesssage)
     {
-        
-
         if (!File.Exists(GetPath(Path)))
         {
             CreateFile(Path, StartMesssage);
@@ -83,8 +81,6 @@ public static class FileUtils
 
         else if (GetByteCount(Path) > 1000000) //10mb //10000000
             RemoveLines(Path, 2, 1000);
-
-        Debug.Log(GetByteCount(Path));
 
         File.AppendAllText(GetPath(Path), "\n" + Text);
     }

@@ -85,7 +85,7 @@
             },
             "Evolution": {
                 "EvolutionType": 1,
-                "EvolutionPokemon": 0,
+                "EvolutionPokemon": 2,
                 "Level": 16,
                 "Item": {
                     "instanceID": 0
@@ -109,6 +109,68 @@
                     "Def": 0,
                     "SAt": 1,
                     "SDe": 0,
+                    "Sp": 0
+                },
+                "LvlRate": 1,
+                "BaseHappiness": 70,
+                "HatchTime": [
+                    5140,
+                    5396
+                ],
+                "EggGroups": [
+                    1,
+                    2
+                ]
+            }
+        },
+        {
+            "GeneralInformation": {
+                "Monster": 2,
+                "Name": "Ivysaur",
+                "Reference": "ivysaur",
+                "Icon": "Sheet1/ivysaur",
+                "IconShiny": "",
+                "TypePrimus": 9,
+                "TypeSecundus": 13
+            },
+            "Pokedex_Entry": {
+                "Index": 2,
+                "Description": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs."
+            },
+            "BaseStats": {
+                "HPStat": 60,
+                "AttackStat": 62,
+                "DefenceStat": 63,
+                "SpAttackStat": 80,
+                "SpDefenceStat": 80,
+                "SpeedStat": 60
+            },
+            "Evolution": {
+                "EvolutionType": 1,
+                "EvolutionPokemon": 0,
+                "Level": 32,
+                "Item": {
+                    "instanceID": 0
+                }
+            },
+            "MoveList": [
+                {
+                    "Move": 1,
+                    "MoveTree": 0,
+                    "LvlUP": 1
+                }
+            ],
+            "Breeding": {
+                "hasGender": true,
+                "MaleRatio": 0.875,
+                "CatchRate": 0.11900000274181366,
+                "YieldExp": 142,
+                "YieldEV": {
+                    "HP": 0,
+                    "Att": 0,
+                    "Def": 0,
+                    "SAt": 1,
+                    "SDe": 1,
                     "Sp": 0
                 },
                 "LvlRate": 1,

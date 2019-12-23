@@ -1,195 +1,21 @@
 |Main.log|
 |====================|
 (CLASS : FileUtils) [DEBUG]: Created 'Main.log' at 'Debug/Logs/'
-(CLASS : FileUtils) [DEBUG]: Created 'FileUtils.log' at 'Debug/Logs//SpreadByClass/'
-(CLASS : FileUtils) [DEBUG]: Created 'debug.log' at 'Debug/Logs//SpreadByType/'
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : FileUtils) [DEBUG]: Created 'TriggerGrass.log' at 'Debug/Logs//SpreadByClass/'
-(CLASS : FileUtils) [DEBUG]: Created 'info.log' at 'Debug/Logs//SpreadByType/'
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : FileUtils) [DEBUG]: Created 'warning.log' at 'Debug/Logs//SpreadByType/'
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : FileUtils) [DEBUG]: Created 'error.log' at 'Debug/Logs//SpreadByType/'
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : FileUtils) [DEBUG]: Created 'exception.log' at 'Debug/Logs//SpreadByType/'
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
-(CLASS : TriggerGrass) [INFO]: An wild Enemy appears!
-(CLASS : TriggerGrass) [DEBUG]: An wild Enemy appears!
-(CLASS : TriggerGrass) [WARNING]: An wild Enemy appears!
-(CLASS : TriggerGrass) [ERROR]: An wild Enemy appears!
-(CLASS : TriggerGrass) [EXCEPTION]: An wild Enemy appears!
+(CLASS : Encounter_Manager) [DEBUG]: Starting 'Encounter' ...
+(CLASS : Encounter_Manager) [DEBUG]: Place: Route 1
+(CLASS : Encounter_Manager) [DEBUG]: RandomNumber = 74,89135
+(CLASS : Encounter_Manager) [DEBUG]: choosenRarity = 0
+(CLASS : Encounter_Manager) [ERROR]: Could not find a fitting Monster - Please check to Method!
+(CLASS : Encounter_Manager) [DEBUG]: Monster: bulbasaur
+(CLASS : Encounter_Manager) [DEBUG]: Starting 'Encounter' ...
+(CLASS : Encounter_Manager) [DEBUG]: Place: Route 1
+(CLASS : Encounter_Manager) [DEBUG]: RandomNumber = 24,83743
+(CLASS : Encounter_Manager) [DEBUG]: choosenRarity = 30
+(CLASS : Encounter_Manager) [ERROR]: Could not find a fitting Monster - Please check to Method!
+(CLASS : Encounter_Manager) [DEBUG]: Monster: bulbasaur
+(CLASS : Encounter_Manager) [DEBUG]: Starting 'Encounter' ...
+(CLASS : Encounter_Manager) [DEBUG]: Place: Route 1
+(CLASS : Encounter_Manager) [DEBUG]: RandomNumber = 3,263628
+(CLASS : Encounter_Manager) [DEBUG]: choosenRarity = 30
+(CLASS : Encounter_Manager) [ERROR]: Could not find a fitting Monster - Please check to Method!
+(CLASS : Encounter_Manager) [DEBUG]: Monster: bulbasaur

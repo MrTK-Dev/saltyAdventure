@@ -1,17 +1,13 @@
 ﻿using System;
-using UnityEngine;
 using System.IO;
-using System.Collections.Generic;
-using System.Reflection;
 
 public static class Logger
 {
     #region Variables
 
     static public int Level = 0;
-    static public Log_Mode Mode = Log_Mode.Mixed;
-    static public File_Mode ModeFile = File_Mode.All;
-    static readonly string Path = "Debug/Logs/Main.log";
+    static public Log_Mode Mode = Log_Mode.Console;
+    static public File_Mode ModeFile = File_Mode.Single;
     static readonly string BasePath = "Debug/Logs/";
     static bool Launched = false;
 

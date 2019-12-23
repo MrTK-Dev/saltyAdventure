@@ -202,7 +202,7 @@ public class PokemonData
                 Evolution = new P_Evolution()
                 {
                     EvolutionType = P_EvolutionType.Lvl,
-                    EvolutionPokemon = Monster.none,    //TODO add Pokemon
+                    EvolutionPokemon = Monster.ivysaur,    //TODO add Pokemon
                     Level = 16,
                     Item = null
                 },
@@ -233,11 +233,72 @@ public class PokemonData
                         P_EggGroup.Grass
                     }
                 }
-            }
+            },  //Bulbasaur
+            new PokemonData()
+            {
+                GeneralInformation = new P_Information()
+                {
+                    Monster = Monster.ivysaur,
+                    Name = "Ivysaur",
+                    TypePrimus = P_Type.Grass,
+                    TypeSecundus = P_Type.Poison
+                },
+                Pokedex_Entry = new P_Pokedex_Entry()
+                {
+                    Index = 2,
+                    Description = "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs."
+                },
+                BaseStats = new P_BaseStats()
+                {
+                    HPStat = 60,
+                    AttackStat = 62,
+                    DefenceStat = 63,
+                    SpAttackStat = 80,
+                    SpDefenceStat = 80,
+                    SpeedStat = 60
+                },
+                Evolution = new P_Evolution()
+                {
+                    EvolutionType = P_EvolutionType.Lvl,
+                    EvolutionPokemon = Monster.none,    //TODO add Pokemon
+                    Level = 32,
+                    Item = null
+                },
+                MoveList = new P_Moves[]
+                {
+                    new P_Moves()
+                    {
+                        Move = Move.tackle,
+                        LvlUP = 1
+                    }
+                },
+                Breeding = new P_Breeding()
+                {
+                    hasGender = true,
+                    MaleRatio = 0.875f,
+                    CatchRate = 0.119f,
+                    YieldExp = 142,
+                    YieldEV = new P_Breeding.P_EVYield()
+                    {
+                        SAt = 1,
+                        SDe = 1
+                    },
+                    LvlRate = P_LvLRate.MediumSlow,
+                    BaseHappiness = 70,
+                    HatchTime = new int[] { 5140, 5396 },
+                    EggGroups = new P_EggGroup[]
+                    {
+                        P_EggGroup.Monster,
+                        P_EggGroup.Grass
+                    }
+                }
+            }   //Ivysaur
         };
     }
 
     #endregion
+
+    #region Methods
 
     public static PokemonData GetData(int Index)
     {
@@ -261,6 +322,8 @@ public class PokemonData
     {
         return Database;
     }
+
+    #endregion
 }
 
 #region SubClasses
@@ -425,7 +488,8 @@ public enum P_LvLRate
 public enum Monster
 {
     none,
-    bulbasaur
+    bulbasaur,
+    ivysaur
 }
 
 #endregion
