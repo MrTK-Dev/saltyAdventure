@@ -18,5 +18,7 @@ public class TEST_TypeEffectiveness : MonoBehaviour
         else
             Logger.Debug(GetType(), "'" + AttackType.ToString() + "' is '" + typeEffectiveness.ToString() + "' on '" +
                 DefendType0.ToString() + "'.");
+
+        Logger.Debug(GetType(), TypeData.GetColor(AttackType).ToString());
     }
 }

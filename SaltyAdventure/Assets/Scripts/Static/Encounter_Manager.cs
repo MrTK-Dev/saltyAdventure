@@ -36,10 +36,10 @@ public static class Encounter_Manager
 
             TrainerInfo = new P_Trainer()
             {
-                Place = Place.Place//,
+                Place = Place.Place,//,
                 //Time
-                //TrainerID -> TrainerCard
-                //TrainerName -> TrainerCard
+                TrainerName = TrainerData.GetData().Name,
+                TrainerID = TrainerData.GetData().ID
             },
 
             EValues = new EffortValues(),

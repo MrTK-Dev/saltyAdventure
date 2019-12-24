@@ -62,7 +62,7 @@ public class BasePokemon
 public class P_Trainer
 {
     public string TrainerName;
-    public int TrainerID;
+    public string TrainerID;
 
     public Place Place = Place.none;
     public string Time;

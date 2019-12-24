@@ -10,6 +10,7 @@ public class TypeData
 
     public string Name = "Placeholder Name";
     public P_Type Type = P_Type.none;
+    public string Hex = "#FFFFFF";
     public List<P_Type> EffectiveTo = new List<P_Type>();
     public List<P_Type> ResistedBy = new List<P_Type>();
     public List<P_Type> IneffectiveTo = new List<P_Type>();
@@ -31,6 +32,7 @@ public class TypeData
         {
             Name = "Normal",
             Type = P_Type.Normal,
+            Hex = "A8A878",
             ResistedBy = new List<P_Type>()
             {
                 P_Type.Rock, P_Type.Steel
@@ -44,6 +46,7 @@ public class TypeData
         {
             Name = "Fighting",
             Type = P_Type.Fighting,
+            Hex = "C03028",
             EffectiveTo = new List<P_Type>()
             {
                 P_Type.Normal, P_Type.Rock, P_Type.Steel, P_Type.Ice, P_Type.Dark
@@ -61,6 +64,7 @@ public class TypeData
         {
             Name = "Flying",
             Type = P_Type.Flying,
+            Hex = "B09CF2",
             EffectiveTo = new List<P_Type>()
             {
                 P_Type.Fighting, P_Type.Bug, P_Type.Grass
@@ -74,6 +78,7 @@ public class TypeData
         {
             Name = "Poison",
             Type = P_Type.Poison,
+            Hex = "A040A0",
             EffectiveTo = new List<P_Type>()
             {
                 P_Type.Grass, P_Type.Fairy
@@ -91,6 +96,7 @@ public class TypeData
         {
             Name = "Ground",
             Type = P_Type.Ground,
+            Hex = "E6CE6C",
             EffectiveTo = new List<P_Type>()
             {
                 P_Type.Poison, P_Type.Rock, P_Type.Steel, P_Type.Fire, P_Type.Electric
@@ -108,6 +114,7 @@ public class TypeData
         {
             Name = "Rock",
             Type = P_Type.Rock,
+            Hex = "B8A038",
             EffectiveTo = new List<P_Type>()
             {
                 P_Type.Flying, P_Type.Bug, P_Type.Fire, P_Type.Ice
@@ -121,6 +128,7 @@ public class TypeData
         {
             Name = "Bug",
             Type = P_Type.Bug,
+            Hex = "A8B820",
             EffectiveTo = new List<P_Type>()
             {
                 P_Type.Grass, P_Type.Psychic, P_Type.Dark
@@ -134,6 +142,7 @@ public class TypeData
         {
             Name = "Ghost",
             Type = P_Type.Ghost,
+            Hex = "705898",
             EffectiveTo = new List<P_Type>()
             {
                 P_Type.Ghost, P_Type.Psychic
@@ -151,6 +160,7 @@ public class TypeData
         {
             Name = "Steel",
             Type = P_Type.Steel,
+            Hex = "B8B8D0",
             EffectiveTo = new List<P_Type>()
             {
                 P_Type.Rock, P_Type.Ice, P_Type.Fairy
@@ -164,6 +174,7 @@ public class TypeData
         {
             Name = "Fire",
             Type = P_Type.Fire,
+            Hex = "F08030",
             EffectiveTo = new List<P_Type>()
             {
                 P_Type.Bug, P_Type.Steel, P_Type.Grass, P_Type.Ice
@@ -177,6 +188,7 @@ public class TypeData
         {
             Name = "Water",
             Type = P_Type.Water,
+            Hex = "6890F0",
             EffectiveTo = new List<P_Type>()
             {
                 P_Type.Ground, P_Type.Rock, P_Type.Fire
@@ -190,6 +202,7 @@ public class TypeData
         {
             Name = "Grass",
             Type = P_Type.Grass,
+            Hex = "78C850",
             EffectiveTo = new List<P_Type>()
             {
                 P_Type.Ground, P_Type.Rock, P_Type.Water
@@ -203,6 +216,7 @@ public class TypeData
         {
             Name = "Electric",
             Type = P_Type.Electric,
+            Hex = "F8D030",
             EffectiveTo = new List<P_Type>()
             {
                 P_Type.Flying, P_Type.Water
@@ -220,6 +234,7 @@ public class TypeData
         {
             Name = "Psychic",
             Type = P_Type.Psychic,
+            Hex = "F85888",
             EffectiveTo = new List<P_Type>()
             {
                 P_Type.Fighting, P_Type.Poison
@@ -237,6 +252,7 @@ public class TypeData
         {
             Name = "Ice",
             Type = P_Type.Ice,
+            Hex = "98D8D8",
             EffectiveTo = new List<P_Type>()
             {
                 P_Type.Flying, P_Type.Ground, P_Type.Grass, P_Type.Dragon
@@ -250,6 +266,7 @@ public class TypeData
         {
             Name = "Dragon",
             Type = P_Type.Dragon,
+            Hex = "7038F8",
             EffectiveTo = new List<P_Type>()
             {
                 P_Type.Dragon
@@ -267,6 +284,7 @@ public class TypeData
         {
             Name = "Dark",
             Type = P_Type.Dark,
+            Hex = "705848",
             EffectiveTo = new List<P_Type>()
             {
                 P_Type.Ghost, P_Type.Psychic
@@ -280,6 +298,7 @@ public class TypeData
         {
             Name = "Fairy",
             Type = P_Type.Fairy,
+            Hex = "FF65D5",
             EffectiveTo = new List<P_Type>()
             {
                 P_Type.Fighting, P_Type.Dragon, P_Type.Dark
@@ -317,6 +336,19 @@ public class TypeData
     public static TypeData[] GetDatabase()
     {
         return Database;
+    }
+
+    public static Color GetColor(P_Type Type)
+    {
+        if (ColorUtility.TryParseHtmlString("#" + GetData(Type).Hex, out Color color))
+            return color;
+
+        else
+        {
+            Logger.Error(MethodBase.GetCurrentMethod().DeclaringType, Type.ToString() + " does not have a valid Hex Color!");
+
+            return color;
+        }
     }
 
     #endregion
