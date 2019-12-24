@@ -18,11 +18,11 @@ public class PokemonParty : MonoBehaviour
         {
             ButtonPartent.transform.GetChildren()[i].GetComponentInChildren<PokemonParty_Button>().AddtoUI(PList[i]);
 
-            Logger.Debug(GetType(), PList[i].Name);
+            //Logger.Debug(GetType(), PList[i].Name);
         }
     }
 
-    public void OnClick(int Index)
+    public void SelectPartyMember(int Index)
     {
         BasePokemon SelectedPokemon = PList[Index];
 
@@ -32,6 +32,7 @@ public class PokemonParty : MonoBehaviour
             "Ability: " + SelectedPokemon.Ability + "\n" +
             "Happiness: " + SelectedPokemon.Happiness + "\n" +
             "Shiny: " + SelectedPokemon.isShiny + "\n" +
+            "Gender: " + SelectedPokemon.Gender + "\n" +
             "Nature: " + SelectedPokemon.Nature + "\n" +
             "Level: " + SelectedPokemon.Level + "\n" +
 

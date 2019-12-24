@@ -29,7 +29,7 @@ public static class JSON_PokemonData
             /*if (Database.PokemonData[i].ID == -1)
                 Database.PokemonData[i].ID = i;*/
             if (Database.PokemonData[i].GeneralInformation.Icon == Path_Icon)
-                Database.PokemonData[i].GeneralInformation.Icon = "Sheet1/" + Database.PokemonData[i].GeneralInformation.Reference;
+                Database.PokemonData[i].GeneralInformation.Icon = "Sheet1stGen/" + Database.PokemonData[i].GeneralInformation.Reference;
         }
 
         DataManagment.WriteToJSON(Database, "PokemonData/Monster");
