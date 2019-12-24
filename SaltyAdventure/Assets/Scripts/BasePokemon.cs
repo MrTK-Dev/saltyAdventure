@@ -20,6 +20,7 @@ public class BasePokemon
     public Gender Gender = Gender.None;
     public bool isShiny = false;
     public int Level = 1;
+    public int Experience;
     public int Happiness;
 
     public Move[] Moves = new Move[4];

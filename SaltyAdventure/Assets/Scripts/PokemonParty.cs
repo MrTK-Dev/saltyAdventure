@@ -34,6 +34,7 @@ public class PokemonParty : MonoBehaviour
             "Shiny: " + SelectedPokemon.isShiny + "\n" +
             "Gender: " + SelectedPokemon.Gender + "\n" +
             "Nature: " + SelectedPokemon.Nature + "\n" +
+            "Experience: " + SelectedPokemon.Experience + "\n" +
             "Level: " + SelectedPokemon.Level + "\n" +
 
             "DVs: " + SelectedPokemon.DValues.HP + ", "

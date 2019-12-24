@@ -163,7 +163,7 @@ public class PokemonData
                 {
                     hasGender = true,
                     MaleRatio = 0.875f,
-                    CatchRate = 0.119f,
+                    CatchRate = 45,
                     YieldExp = 64,
                     YieldEV = new P_Breeding.P_EVYield()
                     {
@@ -223,7 +223,7 @@ public class PokemonData
                 {
                     hasGender = true,
                     MaleRatio = 0.875f,
-                    CatchRate = 0.119f,
+                    CatchRate = 45,
                     YieldExp = 142,
                     YieldEV = new P_Breeding.P_EVYield()
                     {
@@ -341,10 +341,10 @@ public class P_Breeding
     public bool hasGender = true;
     public float MaleRatio;
 
-    public float CatchRate;
+    public int CatchRate;
     public int YieldExp;
     public P_EVYield YieldEV;
-    public P_LvLRate LvlRate = P_LvLRate.Medium;
+    public P_LvLRate LvlRate = P_LvLRate.Erratic;
     public int BaseHappiness = 70;
 
     public int[] HatchTime = new int[2];
@@ -422,17 +422,6 @@ public enum P_EggGroup
     none,
     Monster,
     Grass
-}
-
-[System.Serializable]
-public enum P_LvLRate
-{
-    Slow,
-    MediumSlow,
-    Medium,
-    MediumFast,
-    Fast,
-    Fluctuating
 }
 
 public enum Monster

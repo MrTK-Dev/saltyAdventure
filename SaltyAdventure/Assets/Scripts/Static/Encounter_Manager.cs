@@ -46,6 +46,7 @@ public static class Encounter_Manager
             DValues = GetGenes()
         };
 
+        Pokemon.Experience = Experience.GetExperience(PokemonData.Breeding.LvlRate, Pokemon.Level);
         Pokemon.Stats = GetStats(Pokemon);
         ResetLiveStats(Pokemon);
 

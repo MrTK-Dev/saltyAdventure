@@ -2142,6 +2142,21 @@ PrefabInstance:
       propertyPath: m_WholeNumbers
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1249387262039785448, guid: e2d6da64565c9874aa385e4859ab426b,
+        type: 3}
+      propertyPath: m_Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1249387262039785448, guid: e2d6da64565c9874aa385e4859ab426b,
+        type: 3}
+      propertyPath: m_MaxValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1249387261158656748, guid: e2d6da64565c9874aa385e4859ab426b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2d6da64565c9874aa385e4859ab426b, type: 3}
 --- !u!224 &1424315881 stripped

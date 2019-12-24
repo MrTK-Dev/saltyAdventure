@@ -10,6 +10,7 @@ public class PokemonParty_Button : MonoBehaviour
     public GameObject Icon;
     public GameObject IconGender;
     public GameObject HPSlider;
+    public Image SliderFill;
     public Text Name;
     public Text Level;
     public Text HPText;
@@ -34,7 +35,7 @@ public class PokemonParty_Button : MonoBehaviour
         Icon.SetActive(true);
         Icon.GetComponentInChildren<Image>().sprite = SpriteSheetLoader.GetSprite(ActivePokemon.Monster);
 
-        HPSlider.SetActive(true);
+        SetSlider();
 
         Name.text = ActivePokemon.Name;
         Level.text = "Lv." + ActivePokemon.Level;
@@ -46,6 +47,25 @@ public class PokemonParty_Button : MonoBehaviour
 
             IconGender.GetComponentInChildren<Image>().sprite = SpriteSheetLoader.LoadSheet("GenderSheet/" + ActivePokemon.Gender.ToString().ToLower());
         }
+    }
+
+    void SetSlider()
+    {
+        HPSlider.SetActive(true);
+        HPSlider.GetComponent<Slider>().maxValue = ActivePokemon.Stats.HP;
+        HPSlider.GetComponent<Slider>().value = ActivePokemon.LiveStats.HP;
+
+        float newValue = ActivePokemon.LiveStats.HP / (float)ActivePokemon.Stats.HP;
+        //Logger.Debug(GetType(), "Value = " + newValue);
+
+        if (newValue >= 1f / 2f)
+            SliderFill.color = Color.green;
+            
+        else if (newValue >= 1f / 5f)
+            SliderFill.color = Color.yellow;
+            
+        else
+            SliderFill.color = Color.red;
     }
 
     public void OnClick()
