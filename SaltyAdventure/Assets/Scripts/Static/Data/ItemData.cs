@@ -169,7 +169,11 @@ public enum Item_Item   //change to Item
     Pokeball,
     FullRestore,
     HyperPotion,
-    UltraBall
+    UltraBall,
+
+
+
+    LuckyEgg
 }
 
 #endregion

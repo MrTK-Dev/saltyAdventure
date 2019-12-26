@@ -56,7 +56,22 @@ public class PokemonParty : MonoBehaviour
             + SelectedPokemon.Stats.Defense + ", "
             + SelectedPokemon.Stats.SpecialAttack + ", "
             + SelectedPokemon.Stats.SpecialDefense + ", "
-            + SelectedPokemon.Stats.Speed
+            + SelectedPokemon.Stats.Speed + "\n" +
+
+            "Moves: " + Moves(SelectedPokemon)
             ;
+    }
+
+    string Moves(BasePokemon SelectedPokemon)
+    {
+        string newString = MoveData.GetData(SelectedPokemon.Moves[0].Move).Name;
+
+        for (int i = 1; i < SelectedPokemon.Moves.Length; i++)
+        {
+            if (SelectedPokemon.Moves[i] != null)
+                newString += ", " + MoveData.GetData(SelectedPokemon.Moves[i].Move).Name;
+        }
+
+        return newString;
     }
 }

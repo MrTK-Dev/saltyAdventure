@@ -6,7 +6,7 @@
                 "Name": "Placeholder Name",
                 "Reference": "placeholder_name",
                 "Icon": "Sheet1stGen/placeholder_name",
-                "IconShiny": "",
+                "IconShiny": "Sheet1stGenShiny/placeholder_name",
                 "TypePrimus": 18,
                 "TypeSecundus": 18,
                 "Ability_0": 0,
@@ -47,7 +47,7 @@
                     "SDe": 0,
                     "Sp": 0
                 },
-                "LvlRate": 2,
+                "LvlRate": 0,
                 "BaseHappiness": 70,
                 "HatchTime": [
                     0,
@@ -62,7 +62,7 @@
                 "Name": "Bulbasaur",
                 "Reference": "bulbasaur",
                 "Icon": "Sheet1stGen/bulbasaur",
-                "IconShiny": "",
+                "IconShiny": "Sheet1stGenShiny/bulbasaur",
                 "TypePrimus": 9,
                 "TypeSecundus": 13,
                 "Ability_0": 1,
@@ -109,7 +109,7 @@
                     "SDe": 0,
                     "Sp": 0
                 },
-                "LvlRate": 1,
+                "LvlRate": 3,
                 "BaseHappiness": 70,
                 "HatchTime": [
                     5140,
@@ -127,7 +127,7 @@
                 "Name": "Ivysaur",
                 "Reference": "ivysaur",
                 "Icon": "Sheet1stGen/ivysaur",
-                "IconShiny": "",
+                "IconShiny": "Sheet1stGenShiny/ivysaur",
                 "TypePrimus": 9,
                 "TypeSecundus": 13,
                 "Ability_0": 1,
@@ -174,7 +174,7 @@
                     "SDe": 1,
                     "Sp": 0
                 },
-                "LvlRate": 1,
+                "LvlRate": 3,
                 "BaseHappiness": 70,
                 "HatchTime": [
                     5140,

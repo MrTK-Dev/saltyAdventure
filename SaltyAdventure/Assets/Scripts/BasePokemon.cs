@@ -23,7 +23,7 @@ public class BasePokemon
     public int Experience;
     public int Happiness;
 
-    public Move[] Moves = new Move[4];
+    public BaseMove[] Moves = new BaseMove[4];
 
     public void AddMember(BasePokemon bp)
     {
@@ -54,7 +54,7 @@ public class BasePokemon
         LiveStats.SpecialDefence = bp.Kind.BaseStats.SpDefenceStat;
         LiveStats.Speed = bp.Kind.BaseStats.SpeedStat;
         */
-    }
+    }   //TODO can this be removed?
 }
 
 #region SubClasses

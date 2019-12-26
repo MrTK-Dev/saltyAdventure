@@ -46,6 +46,7 @@ public static class Encounter_Manager
             DValues = GetGenes()
         };
 
+        Pokemon.Moves = GetMoveList(Pokemon);
         Pokemon.Experience = Experience.GetExperience(PokemonData.Breeding.LvlRate, Pokemon.Level);
         Pokemon.Stats = GetStats(Pokemon);
         ResetLiveStats(Pokemon);
@@ -206,5 +207,55 @@ public static class Encounter_Manager
 
         else
             return Gender.None;
+    }
+
+    /// <summary>
+    /// Picks the last 4 moves that the given Pokemon can learn by level-up.
+    /// Entries 1, 2 & 3 can be null!
+    /// </summary>
+    /// <param name="Pokemon">Pokemon</param>
+    /// <returns>4 BaseMoves in an Array</returns>
+    static BaseMove[] GetMoveList(BasePokemon Pokemon)
+    {
+        PokemonData Data = PokemonData.GetData(Pokemon.Monster);
+
+        List<Move> newMoveList = new List<Move>();
+
+        //Logger.Debug(MethodBase.GetCurrentMethod().DeclaringType, "Data.MoveList.Length = " + Data.MoveList.Length);
+
+        for (int i = 1; i < Data.MoveList.Length; i++)
+        {
+            P_Moves newMove = Data.MoveList[Data.MoveList.Length - i];
+
+            if (newMove.MoveTree == P_MoveTree.LevelUp && newMove.LvlUP <= Pokemon.Level)
+                newMoveList.Add(newMove.Move);
+
+            if (newMoveList.Count == 4)
+                break;
+        }
+
+        BaseMove[] BaseMoveList = new BaseMove[4];
+
+        for (int i = 0; i < newMoveList.Count; i++)
+        {
+            BaseMoveList[i] = new BaseMove()
+            {
+                Move = newMoveList[i],
+                CurrentPP = MoveData.GetData(newMoveList[i]).PP,
+                MaxPP = MoveData.GetData(newMoveList[i]).PP,
+                isDisabled = false
+            };
+        }
+
+        if (BaseMoveList[0] != null)
+            return BaseMoveList;
+
+        else
+        {
+            Logger.Exception(MethodBase.GetCurrentMethod().DeclaringType, "'" + Pokemon.Monster + "' does not have a valid Move in its 'Moves' variable!");
+
+            return null;
+        }
+
     }
 }

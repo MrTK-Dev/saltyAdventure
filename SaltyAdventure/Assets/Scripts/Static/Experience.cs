@@ -93,6 +93,13 @@ public static class Experience
 
     #endregion
 
+    #region Variables
+
+    //static readonly float TrainerMultiplier = 1.5f;
+    static readonly float LuckyEggMultiplier = 1.5f;
+
+    #endregion
+
     #region Methods
 
     public static int GetExperience(P_LvLRate Rate, int Level)
@@ -131,6 +138,25 @@ public static class Experience
         }
 
         return Experience;
+    }
+
+    public static int GetExpForNextLevel(BasePokemon Pokemon)
+    {
+        return GetExperience(PokemonData.GetData(Pokemon.Monster).Breeding.LvlRate, Pokemon.Level + 1) - Pokemon.Experience;
+    }
+
+    public static int CalculateExp(BasePokemon VictoriousPokemon, BasePokemon DefeatedPokemon)
+    {
+        float LuckyEgg = 1;
+
+        if (VictoriousPokemon.HeldItem == Item_Item.LuckyEgg)
+            LuckyEgg = LuckyEggMultiplier;
+
+
+        //float Exp = ((TrainerMultiplier * PokemonData.GetData(DefeatedPokemon.Monster).Breeding.YieldExp * DefeatedPokemon.Level) / 5 * 1) * ());
+
+
+        return 0;
     }
 
     #endregion

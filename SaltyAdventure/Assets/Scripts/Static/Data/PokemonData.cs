@@ -30,6 +30,8 @@ public static class JSON_PokemonData
                 Database.PokemonData[i].ID = i;*/
             if (Database.PokemonData[i].GeneralInformation.Icon == Path_Icon)
                 Database.PokemonData[i].GeneralInformation.Icon = "Sheet1stGen/" + Database.PokemonData[i].GeneralInformation.Reference;
+            if (Database.PokemonData[i].GeneralInformation.IconShiny == Path_Icon_1)
+                Database.PokemonData[i].GeneralInformation.IconShiny = "Sheet1stGenShiny/" + Database.PokemonData[i].GeneralInformation.Reference;
         }
 
         DataManagment.WriteToJSON(Database, "PokemonData/Monster");
@@ -155,8 +157,53 @@ public class PokemonData
                 {
                     new P_Moves()
                     {
-                        Move = Move.tackle,
+                        Move = Move.Tackle,
                         LvlUP = 1
+                    },
+                    new P_Moves()
+                    {
+                        Move = Move.Growl,
+                        LvlUP = 1
+                    },
+                    new P_Moves()
+                    {
+                        Move = Move.VineWhip,
+                        LvlUP = 3
+                    },
+                    new P_Moves()
+                    {
+                        Move = Move.Growth,
+                        LvlUP = 6
+                    },
+                    new P_Moves()
+                    {
+                        Move = Move.LeechSeed,
+                        LvlUP = 9
+                    },
+                    new P_Moves()
+                    {
+                        Move = Move.RazorLeaf,
+                        LvlUP = 12
+                    },
+                    new P_Moves()
+                    {
+                        Move = Move.PoisonPowder,
+                        LvlUP = 15
+                    },
+                    new P_Moves()
+                    {
+                        Move = Move.SleepPowder,
+                        LvlUP = 15
+                    },
+                    new P_Moves()
+                    {
+                        Move = Move.SeedBomb,
+                        LvlUP = 18
+                    },
+                    new P_Moves()
+                    {
+                        Move = Move.TakeDown,
+                        LvlUP = 21
                     }
                 },
                 Breeding = new P_Breeding()
@@ -215,8 +262,53 @@ public class PokemonData
                 {
                     new P_Moves()
                     {
-                        Move = Move.tackle,
+                        Move = Move.Tackle,
                         LvlUP = 1
+                    },
+                    new P_Moves()
+                    {
+                        Move = Move.Growl,
+                        LvlUP = 1
+                    },
+                    new P_Moves()
+                    {
+                        Move = Move.VineWhip,
+                        LvlUP = 1
+                    },
+                    new P_Moves()
+                    {
+                        Move = Move.Growth,
+                        LvlUP = 1
+                    },
+                    new P_Moves()
+                    {
+                        Move = Move.LeechSeed,
+                        LvlUP = 9
+                    },
+                    new P_Moves()
+                    {
+                        Move = Move.RazorLeaf,
+                        LvlUP = 12
+                    },
+                    new P_Moves()
+                    {
+                        Move = Move.PoisonPowder,
+                        LvlUP = 15
+                    },
+                    new P_Moves()
+                    {
+                        Move = Move.SleepPowder,
+                        LvlUP = 15
+                    },
+                    new P_Moves()
+                    {
+                        Move = Move.SeedBomb,
+                        LvlUP = 20
+                    },
+                    new P_Moves()
+                    {
+                        Move = Move.TakeDown,
+                        LvlUP = 25
                     }
                 },
                 Breeding = new P_Breeding()
