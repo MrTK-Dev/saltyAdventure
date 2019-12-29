@@ -5,6 +5,13 @@ using UnityEngine;
 
 public static class Encounter_Manager
 {
+    static public BasePokemon GetEncounter(Place newPlace)
+    {
+        PlaceData PlaceData = PlaceData.GetData(newPlace);
+        PokemonData PokemonData = PokemonData.GetData(GetByRarity(PlaceData));
+        return GetPokemon(PokemonData, PlaceData);
+    }
+
     static public void Encounter(Place newPlace)
     {
         PlaceData PlaceData = PlaceData.GetData(newPlace);

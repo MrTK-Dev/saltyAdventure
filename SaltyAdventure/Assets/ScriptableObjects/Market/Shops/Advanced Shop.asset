@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c851e46af262f7948a4b150b2162acf3, type: 3}
+  m_Name: Advanced Shop
+  m_EditorClassIdentifier: 
+  ID: 1
+  Icon: {fileID: 0}
+  BG: {fileID: 0}
+  Name: Advanced Shop
+  Description: An advanced Shop.
+  Category: Advanced
+  Stock:
+  - {fileID: 11400000, guid: 29a598c1f5cc16841b2417902e4b8052, type: 2}
+  - {fileID: 11400000, guid: a0d0f4339ca06c2489d9ec81f43d17ec, type: 2}

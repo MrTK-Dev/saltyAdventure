@@ -1,0 +1,5143 @@
+fileFormatVersion: 2
+guid: 7c5ce3a90e2e9124a9322b540fb1b444
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2803561792948060949
+    second: bulbasaur
+  - first:
+      213: 8483665260809647294
+    second: ivysaur
+  - first:
+      213: -156341923405791028
+    second: Sheet1stGenShiny_2
+  - first:
+      213: -8780411289578652381
+    second: Sheet1stGenShiny_3
+  - first:
+      213: -6586174860812320392
+    second: Sheet1stGenShiny_4
+  - first:
+      213: 661721372765165818
+    second: Sheet1stGenShiny_5
+  - first:
+      213: -2560995852212232573
+    second: Sheet1stGenShiny_6
+  - first:
+      213: 7577490974372073348
+    second: Sheet1stGenShiny_7
+  - first:
+      213: -610757638221351621
+    second: Sheet1stGenShiny_8
+  - first:
+      213: 8632621208634494865
+    second: Sheet1stGenShiny_9
+  - first:
+      213: 1491791465481034957
+    second: Sheet1stGenShiny_10
+  - first:
+      213: 702825804432839383
+    second: Sheet1stGenShiny_11
+  - first:
+      213: 826162170505623518
+    second: Sheet1stGenShiny_12
+  - first:
+      213: -4994182765266946896
+    second: Sheet1stGenShiny_13
+  - first:
+      213: 6076750705836251459
+    second: Sheet1stGenShiny_14
+  - first:
+      213: -515331978108936432
+    second: Sheet1stGenShiny_15
+  - first:
+      213: -7506443445557011831
+    second: Sheet1stGenShiny_16
+  - first:
+      213: 1960412579627260854
+    second: Sheet1stGenShiny_17
+  - first:
+      213: -8400105203539727077
+    second: Sheet1stGenShiny_18
+  - first:
+      213: 1214329385485606940
+    second: Sheet1stGenShiny_19
+  - first:
+      213: 4286743975221029470
+    second: Sheet1stGenShiny_20
+  - first:
+      213: -1259821166137768011
+    second: Sheet1stGenShiny_21
+  - first:
+      213: 4440508029584273129
+    second: Sheet1stGenShiny_22
+  - first:
+      213: 3716518661606458207
+    second: Sheet1stGenShiny_23
+  - first:
+      213: -8384805290648753250
+    second: Sheet1stGenShiny_24
+  - first:
+      213: 8743481604032136762
+    second: Sheet1stGenShiny_25
+  - first:
+      213: -439487965984933579
+    second: Sheet1stGenShiny_26
+  - first:
+      213: 5587866566989376911
+    second: Sheet1stGenShiny_27
+  - first:
+      213: -855688331087628005
+    second: Sheet1stGenShiny_28
+  - first:
+      213: -4659725874266157043
+    second: Sheet1stGenShiny_29
+  - first:
+      213: -221399022554211934
+    second: Sheet1stGenShiny_30
+  - first:
+      213: 26448254098795870
+    second: Sheet1stGenShiny_31
+  - first:
+      213: -31359862000072875
+    second: Sheet1stGenShiny_32
+  - first:
+      213: -3786724148703790304
+    second: Sheet1stGenShiny_33
+  - first:
+      213: -237068917202775366
+    second: Sheet1stGenShiny_34
+  - first:
+      213: 1172698565403786338
+    second: Sheet1stGenShiny_35
+  - first:
+      213: 7752153341078585053
+    second: Sheet1stGenShiny_36
+  - first:
+      213: -1396881138507979380
+    second: Sheet1stGenShiny_37
+  - first:
+      213: 5218761960672753830
+    second: Sheet1stGenShiny_38
+  - first:
+      213: 689626224740675683
+    second: Sheet1stGenShiny_39
+  - first:
+      213: 2917351644061907045
+    second: Sheet1stGenShiny_40
+  - first:
+      213: -4782041187220687243
+    second: Sheet1stGenShiny_41
+  - first:
+      213: 9097544343099836033
+    second: Sheet1stGenShiny_42
+  - first:
+      213: -8678054989660269081
+    second: Sheet1stGenShiny_43
+  - first:
+      213: -7503002073185820182
+    second: Sheet1stGenShiny_44
+  - first:
+      213: -1305096305556429521
+    second: Sheet1stGenShiny_45
+  - first:
+      213: -4785491130066843433
+    second: Sheet1stGenShiny_46
+  - first:
+      213: -7822667525065245272
+    second: Sheet1stGenShiny_47
+  - first:
+      213: -7135831138854489437
+    second: Sheet1stGenShiny_48
+  - first:
+      213: 5721328364273426647
+    second: Sheet1stGenShiny_49
+  - first:
+      213: 6304329634224564592
+    second: Sheet1stGenShiny_50
+  - first:
+      213: -6051559960865618563
+    second: Sheet1stGenShiny_51
+  - first:
+      213: -5818314796503729044
+    second: Sheet1stGenShiny_52
+  - first:
+      213: -5753298412764567254
+    second: Sheet1stGenShiny_53
+  - first:
+      213: -7237254429175961497
+    second: Sheet1stGenShiny_54
+  - first:
+      213: -1043305008378286190
+    second: Sheet1stGenShiny_55
+  - first:
+      213: -1112115576970476394
+    second: Sheet1stGenShiny_56
+  - first:
+      213: 6953750735263502692
+    second: Sheet1stGenShiny_57
+  - first:
+      213: 4797904101057662129
+    second: Sheet1stGenShiny_58
+  - first:
+      213: 9161629028094501107
+    second: Sheet1stGenShiny_59
+  - first:
+      213: 2902944901600971817
+    second: Sheet1stGenShiny_60
+  - first:
+      213: 3592059552757651538
+    second: Sheet1stGenShiny_61
+  - first:
+      213: -1651536625520244065
+    second: Sheet1stGenShiny_62
+  - first:
+      213: 2047231932889478449
+    second: Sheet1stGenShiny_63
+  - first:
+      213: -6213812250719540675
+    second: Sheet1stGenShiny_64
+  - first:
+      213: 5782920697778250701
+    second: Sheet1stGenShiny_65
+  - first:
+      213: -7761418366313341933
+    second: Sheet1stGenShiny_66
+  - first:
+      213: 1389546284745954840
+    second: Sheet1stGenShiny_67
+  - first:
+      213: 2360459281734214348
+    second: Sheet1stGenShiny_68
+  - first:
+      213: -2493824139881355678
+    second: Sheet1stGenShiny_69
+  - first:
+      213: 1005098894850264940
+    second: Sheet1stGenShiny_70
+  - first:
+      213: 8763374088478070500
+    second: Sheet1stGenShiny_71
+  - first:
+      213: -792766585469429112
+    second: Sheet1stGenShiny_72
+  - first:
+      213: 7229642687549263194
+    second: Sheet1stGenShiny_73
+  - first:
+      213: 8892273063083848685
+    second: Sheet1stGenShiny_74
+  - first:
+      213: -137509456578797706
+    second: Sheet1stGenShiny_75
+  - first:
+      213: -8552692595272731360
+    second: Sheet1stGenShiny_76
+  - first:
+      213: -1167382421481734456
+    second: Sheet1stGenShiny_77
+  - first:
+      213: 2182252617155843566
+    second: Sheet1stGenShiny_78
+  - first:
+      213: 4191783423811548867
+    second: Sheet1stGenShiny_79
+  - first:
+      213: 5147409215582145277
+    second: Sheet1stGenShiny_80
+  - first:
+      213: 8842773283745218780
+    second: Sheet1stGenShiny_81
+  - first:
+      213: 1654083873320734627
+    second: Sheet1stGenShiny_82
+  - first:
+      213: 1720940017882312816
+    second: Sheet1stGenShiny_83
+  - first:
+      213: 1293864843350888465
+    second: Sheet1stGenShiny_84
+  - first:
+      213: 2969804647069682669
+    second: Sheet1stGenShiny_85
+  - first:
+      213: -1382621675408743875
+    second: Sheet1stGenShiny_86
+  - first:
+      213: -8136346488767813449
+    second: Sheet1stGenShiny_87
+  - first:
+      213: 3437807197429703675
+    second: Sheet1stGenShiny_88
+  - first:
+      213: 3150893444273074740
+    second: Sheet1stGenShiny_89
+  - first:
+      213: -2173677799019219285
+    second: Sheet1stGenShiny_90
+  - first:
+      213: -6833277182010767629
+    second: Sheet1stGenShiny_91
+  - first:
+      213: 5296396242813268578
+    second: Sheet1stGenShiny_92
+  - first:
+      213: -9037346091755142123
+    second: Sheet1stGenShiny_93
+  - first:
+      213: 6942626005381738784
+    second: Sheet1stGenShiny_94
+  - first:
+      213: -1754952291862816573
+    second: Sheet1stGenShiny_95
+  - first:
+      213: 4864367011350078883
+    second: Sheet1stGenShiny_96
+  - first:
+      213: -5673985254516719545
+    second: Sheet1stGenShiny_97
+  - first:
+      213: 2824605309629282702
+    second: Sheet1stGenShiny_98
+  - first:
+      213: 1560556280647198218
+    second: Sheet1stGenShiny_99
+  - first:
+      213: 3474128368996664028
+    second: Sheet1stGenShiny_100
+  - first:
+      213: -3251415995959997434
+    second: Sheet1stGenShiny_101
+  - first:
+      213: -3794122481177828127
+    second: Sheet1stGenShiny_102
+  - first:
+      213: -588762729788871685
+    second: Sheet1stGenShiny_103
+  - first:
+      213: -5306567804573742060
+    second: Sheet1stGenShiny_104
+  - first:
+      213: -2887750937716604231
+    second: Sheet1stGenShiny_105
+  - first:
+      213: -2812318682745639982
+    second: Sheet1stGenShiny_106
+  - first:
+      213: 2622246013911532683
+    second: Sheet1stGenShiny_107
+  - first:
+      213: 3554468444359721696
+    second: Sheet1stGenShiny_108
+  - first:
+      213: 1610474276242186000
+    second: Sheet1stGenShiny_109
+  - first:
+      213: -5200904281478630655
+    second: Sheet1stGenShiny_110
+  - first:
+      213: 7351300786481401260
+    second: Sheet1stGenShiny_111
+  - first:
+      213: 1404729290302803792
+    second: Sheet1stGenShiny_112
+  - first:
+      213: -6493634516292537820
+    second: Sheet1stGenShiny_113
+  - first:
+      213: 7350164680648516796
+    second: Sheet1stGenShiny_114
+  - first:
+      213: -1292183629681225543
+    second: Sheet1stGenShiny_115
+  - first:
+      213: 2224498031767900180
+    second: Sheet1stGenShiny_116
+  - first:
+      213: 399298191429190371
+    second: Sheet1stGenShiny_117
+  - first:
+      213: -6034733347524492943
+    second: Sheet1stGenShiny_118
+  - first:
+      213: -3267234373352001306
+    second: Sheet1stGenShiny_119
+  - first:
+      213: 3411260058003690102
+    second: Sheet1stGenShiny_120
+  - first:
+      213: 4369867702334451643
+    second: Sheet1stGenShiny_121
+  - first:
+      213: 481305184514132182
+    second: Sheet1stGenShiny_122
+  - first:
+      213: -8285942648467783995
+    second: Sheet1stGenShiny_123
+  - first:
+      213: 1820095560959128
+    second: Sheet1stGenShiny_124
+  - first:
+      213: 6833322139113561153
+    second: Sheet1stGenShiny_125
+  - first:
+      213: 1550904989348251006
+    second: Sheet1stGenShiny_126
+  - first:
+      213: 4853951941749850672
+    second: Sheet1stGenShiny_127
+  - first:
+      213: 6379582733431618545
+    second: Sheet1stGenShiny_128
+  - first:
+      213: 3257523605435507348
+    second: Sheet1stGenShiny_129
+  - first:
+      213: 7961855588960568413
+    second: Sheet1stGenShiny_130
+  - first:
+      213: -8294636336282260186
+    second: Sheet1stGenShiny_131
+  - first:
+      213: -8183055046099696299
+    second: Sheet1stGenShiny_132
+  - first:
+      213: -1550885134065958625
+    second: Sheet1stGenShiny_133
+  - first:
+      213: 22245701293633393
+    second: Sheet1stGenShiny_134
+  - first:
+      213: 4890572078238375378
+    second: Sheet1stGenShiny_135
+  - first:
+      213: 4411480292794101180
+    second: Sheet1stGenShiny_136
+  - first:
+      213: 3156115345075853101
+    second: Sheet1stGenShiny_137
+  - first:
+      213: -3828173566376642728
+    second: Sheet1stGenShiny_138
+  - first:
+      213: -2465284284805964073
+    second: Sheet1stGenShiny_139
+  - first:
+      213: -1336261353295261088
+    second: Sheet1stGenShiny_140
+  - first:
+      213: 2758781403512987531
+    second: Sheet1stGenShiny_141
+  - first:
+      213: -7804411326345653666
+    second: Sheet1stGenShiny_142
+  - first:
+      213: -9018387089203019340
+    second: Sheet1stGenShiny_143
+  - first:
+      213: -7649848581708436728
+    second: Sheet1stGenShiny_144
+  - first:
+      213: -5589032655354214882
+    second: Sheet1stGenShiny_145
+  - first:
+      213: -3768993845402704848
+    second: Sheet1stGenShiny_146
+  - first:
+      213: -2005441232808423799
+    second: Sheet1stGenShiny_147
+  - first:
+      213: -3455915133259670360
+    second: Sheet1stGenShiny_148
+  - first:
+      213: 8059059574857644997
+    second: Sheet1stGenShiny_149
+  - first:
+      213: -2902665902936748305
+    second: Sheet1stGenShiny_150
+  - first:
+      213: -348831521100760665
+    second: Sheet1stGenShiny_151
+  - first:
+      213: -5857765370329866986
+    second: Sheet1stGenShiny_152
+  - first:
+      213: -6383842102899281005
+    second: Sheet1stGenShiny_153
+  - first:
+      213: -5132720374646103153
+    second: Sheet1stGenShiny_154
+  - first:
+      213: 2950356003988244126
+    second: Sheet1stGenShiny_155
+  - first:
+      213: 1663065377481776454
+    second: Sheet1stGenShiny_156
+  - first:
+      213: 326861879436637029
+    second: Sheet1stGenShiny_157
+  - first:
+      213: 2514226571046349153
+    second: Sheet1stGenShiny_158
+  - first:
+      213: 2963096322316038214
+    second: Sheet1stGenShiny_159
+  - first:
+      213: -2353537855454592606
+    second: Sheet1stGenShiny_160
+  - first:
+      213: -897278795412784631
+    second: Sheet1stGenShiny_161
+  - first:
+      213: -3617263282371434662
+    second: Sheet1stGenShiny_162
+  - first:
+      213: -4487919156346525000
+    second: Sheet1stGenShiny_163
+  - first:
+      213: -4390122579515813289
+    second: Sheet1stGenShiny_164
+  - first:
+      213: -3707303287749253078
+    second: Sheet1stGenShiny_165
+  - first:
+      213: 429965936104041857
+    second: Sheet1stGenShiny_166
+  - first:
+      213: 9132928684894505257
+    second: Sheet1stGenShiny_167
+  - first:
+      213: 3905828657405420415
+    second: Sheet1stGenShiny_168
+  - first:
+      213: 534942791521763201
+    second: Sheet1stGenShiny_169
+  - first:
+      213: -4118551300430959522
+    second: Sheet1stGenShiny_170
+  - first:
+      213: -5179654227016416112
+    second: Sheet1stGenShiny_171
+  - first:
+      213: 1779897481509535804
+    second: Sheet1stGenShiny_172
+  - first:
+      213: 1325161328440343037
+    second: Sheet1stGenShiny_173
+  - first:
+      213: 81793496901326571
+    second: Sheet1stGenShiny_174
+  - first:
+      213: 4312560425831857206
+    second: Sheet1stGenShiny_175
+  - first:
+      213: 6393313577251288178
+    second: Sheet1stGenShiny_176
+  - first:
+      213: -7288156606481250421
+    second: Sheet1stGenShiny_177
+  - first:
+      213: 8062153153165014030
+    second: Sheet1stGenShiny_178
+  - first:
+      213: 933140755357686488
+    second: Sheet1stGenShiny_179
+  - first:
+      213: 7616084769715617596
+    second: Sheet1stGenShiny_180
+  - first:
+      213: -5506021108859125208
+    second: Sheet1stGenShiny_181
+  - first:
+      213: -8464689827366432834
+    second: Sheet1stGenShiny_182
+  - first:
+      213: 249678107279583629
+    second: Sheet1stGenShiny_183
+  - first:
+      213: -7687363742826525577
+    second: Sheet1stGenShiny_184
+  - first:
+      213: 8340824707077714924
+    second: Sheet1stGenShiny_185
+  - first:
+      213: 7450911254483604615
+    second: Sheet1stGenShiny_186
+  - first:
+      213: 394568732662835048
+    second: Sheet1stGenShiny_187
+  - first:
+      213: -2155008324817842345
+    second: Sheet1stGenShiny_188
+  - first:
+      213: 7524104691252552573
+    second: Sheet1stGenShiny_189
+  - first:
+      213: 774846617796088517
+    second: Sheet1stGenShiny_190
+  - first:
+      213: 1253505880140668673
+    second: Sheet1stGenShiny_191
+  - first:
+      213: 5206331701168594580
+    second: Sheet1stGenShiny_192
+  - first:
+      213: -7321000092201744207
+    second: Sheet1stGenShiny_193
+  - first:
+      213: -4917282328365611379
+    second: Sheet1stGenShiny_194
+  - first:
+      213: -1805741830149251806
+    second: Sheet1stGenShiny_195
+  - first:
+      213: -6997226020572884000
+    second: Sheet1stGenShiny_196
+  - first:
+      213: -2980338427026101315
+    second: Sheet1stGenShiny_197
+  - first:
+      213: 1054838642039798133
+    second: Sheet1stGenShiny_198
+  - first:
+      213: -5878297108991702401
+    second: Sheet1stGenShiny_199
+  - first:
+      213: 3504885402248953890
+    second: Sheet1stGenShiny_200
+  - first:
+      213: -8072340986362989248
+    second: Sheet1stGenShiny_201
+  - first:
+      213: 5543965989636060843
+    second: Sheet1stGenShiny_202
+  - first:
+      213: -7983153867638387987
+    second: Sheet1stGenShiny_203
+  - first:
+      213: -2665339336934668309
+    second: Sheet1stGenShiny_204
+  - first:
+      213: -355253983626567123
+    second: Sheet1stGenShiny_205
+  - first:
+      213: 3759884360056269437
+    second: Sheet1stGenShiny_206
+  - first:
+      213: -2568302650101837031
+    second: Sheet1stGenShiny_207
+  - first:
+      213: 3838874451961109835
+    second: Sheet1stGenShiny_208
+  - first:
+      213: -3616188702968385290
+    second: Sheet1stGenShiny_209
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bulbasaur
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2581
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef4306e02ae4d441999857267aa1f3a
+      internalID: -2803561792948060949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivysaur
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2581
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3995f40eeb2caa45a4f76f7b6af643b
+      internalID: 8483665260809647294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2581
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eebaa37579fed540a099f23bc704b42
+      internalID: -156341923405791028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_3
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2581
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7e3689fd22efe49bdefd21eac0315d
+      internalID: -8780411289578652381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_4
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 2581
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18aa4de8f277ae64fbaa5f69ba115f40
+      internalID: -6586174860812320392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_5
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 2581
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182dbf15ae640124c8e17bf03e82f5b1
+      internalID: 661721372765165818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_6
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 2581
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f2b2828523347448ae1b06e305bfea
+      internalID: -2560995852212232573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_7
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 2581
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ae84c8381325d4291c831c2d2a69a5
+      internalID: 7577490974372073348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_8
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 2581
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384c1bf313d4d7345be103e7c19ce131
+      internalID: -610757638221351621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_9
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 2581
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4eec2220898e44ab8c4c68f937f26c
+      internalID: 8632621208634494865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2452
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1d6b09e3df1174f939e1ac1fcdfab5
+      internalID: 1491791465481034957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_11
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2452
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cffc223109c13489e170edbb940a60
+      internalID: 702825804432839383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_12
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2452
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be3dfc0e528c544d86db69b7e55ffd4
+      internalID: 826162170505623518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_13
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2452
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bd2fce6e93df340b31d713d1ff396c
+      internalID: -4994182765266946896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_14
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 2452
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93617f4dac486a040b44dc41875d13b3
+      internalID: 6076750705836251459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_15
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 2452
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9479d0455e0b0f4a825f5634a31a1cb
+      internalID: -515331978108936432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_16
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 2452
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30f0f3a4af1c1f4a81fad9bca428736
+      internalID: -7506443445557011831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_17
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 2452
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9254c3ed16f7a54ebb50f8e3102b4a7
+      internalID: 1960412579627260854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_18
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 2452
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586eb8133b567ce4cb895db51ea2f774
+      internalID: -8400105203539727077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_19
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 2452
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bd574526c6e8241b26c55a5fbcbe27
+      internalID: 1214329385485606940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2323
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d3068058c6a954986aa9537a62d6de
+      internalID: 4286743975221029470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_21
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2323
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc57bae20492afc4d8dc59452b27d142
+      internalID: -1259821166137768011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_22
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2323
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba07cad9c7a8b14e8433fd532a5a363
+      internalID: 4440508029584273129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_23
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2323
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2929464bc18fc6f418ee589481fb70e8
+      internalID: 3716518661606458207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_24
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 2323
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4678f3217ba2d9747bdef3d922e14283
+      internalID: -8384805290648753250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_25
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 2323
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f5f824bffdcb0438fe7b66e2ea8158
+      internalID: 8743481604032136762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_26
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 2323
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d881b744e6dae0a43816cb230be52540
+      internalID: -439487965984933579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_27
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 2323
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c14ae640fd6514fb6e17a23c6642b5
+      internalID: 5587866566989376911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_28
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 2323
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965cf8a574b7fb749b710535dc46b5c6
+      internalID: -855688331087628005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_29
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 2323
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92277b6a45e261846a77c8954361b245
+      internalID: -4659725874266157043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2194
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591b7a5371ca846409fa604f1e7e1ee5
+      internalID: -221399022554211934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_31
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2194
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a744febbcebd4e944bcf3c864f57e88d
+      internalID: 26448254098795870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_32
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2194
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bff7d8a2ef1e642a71b87c5ccd737b
+      internalID: -31359862000072875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_33
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2194
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b54284e58eb934d8d3ff1a0554f2b1
+      internalID: -3786724148703790304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_34
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 2194
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55454136fbd336b48bf52042e6ca1e50
+      internalID: -237068917202775366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_35
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 2194
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb80754c35aa982499a8b33297a2959d
+      internalID: 1172698565403786338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_36
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 2194
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ceef3732000be4796c587224b74852
+      internalID: 7752153341078585053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_37
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 2194
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27c02329bd64e24cbf50cc4ed2e8043
+      internalID: -1396881138507979380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_38
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 2194
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66215dbed5845e54daf8c62b332aad35
+      internalID: 5218761960672753830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_39
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 2194
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2525eeab383dc428671a58c56729b1
+      internalID: 689626224740675683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b347c41329d9949ab78a25293445b1
+      internalID: 2917351644061907045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_41
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b688fc5188039244d98c36eb44e6dd4c
+      internalID: -4782041187220687243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_42
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e7366ad4dc0474d8bf72b63978e2cf
+      internalID: 9097544343099836033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_43
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21634b5475812b74fb7c7adccdc2512e
+      internalID: -8678054989660269081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_44
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 2065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb999c38ce4dd44598975b736c3f63a
+      internalID: -7503002073185820182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_45
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 2065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39044f283b3221a40ba994f2cea53c6a
+      internalID: -1305096305556429521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_46
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 2065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1936784fe9f42498fc793ec62fc285
+      internalID: -4785491130066843433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_47
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 2065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adecb6e2f78bd7b4c95c7f46f1c0abb9
+      internalID: -7822667525065245272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_48
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 2065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ff3570d96e8e14b8835b43cac2fe06
+      internalID: -7135831138854489437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_49
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 2065
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a6994fe56370d448685bd9abeeb99d
+      internalID: 5721328364273426647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1936
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338eb5abdc1c7fd4c91ff0a1cf4416f4
+      internalID: 6304329634224564592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_51
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1936
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441944b84b3c94944811c7e1a3f27349
+      internalID: -6051559960865618563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_52
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1936
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac81a32a0a869e4d96ef1a5515ce280
+      internalID: -5818314796503729044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_53
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1936
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7428a5e2229b1c94ebca1d4f8e4854eb
+      internalID: -5753298412764567254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_54
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1936
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1480f25d289c77d4f87d716e6e7269ae
+      internalID: -7237254429175961497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_55
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1936
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bd4a125f6350e42b8311ed1b4dcc07
+      internalID: -1043305008378286190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_56
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1936
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ace7fbff7ea234aa503af90b967708
+      internalID: -1112115576970476394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_57
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1936
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4339a90a94ee9447ab1da2d9a43fc1d
+      internalID: 6953750735263502692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_58
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1936
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01701d7455761ee4eaf41587b273a882
+      internalID: 4797904101057662129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_59
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1936
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcea41456faea0d469b1ac01a813648f
+      internalID: 9161629028094501107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1807
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c26e178583731c4fa352a3e12147dd5
+      internalID: 2902944901600971817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_61
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1807
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627880d1ef3ee334486f0921c2c4a347
+      internalID: 3592059552757651538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_62
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1807
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7409b11c974d9d245b2b0450bb151666
+      internalID: -1651536625520244065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_63
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1807
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4411b9d8cab9b40b1f8169af95b72b
+      internalID: 2047231932889478449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_64
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1807
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d10b371a0397c7498b98366e650fa5f
+      internalID: -6213812250719540675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_65
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1807
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdae8c712f93a9441ba488ed2bac07a2
+      internalID: 5782920697778250701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_66
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1807
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c966bda06aef4c41b2c8ff8639fe32e
+      internalID: -7761418366313341933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_67
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1807
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433a5ad9227e00145a7139564e881677
+      internalID: 1389546284745954840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_68
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1807
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bd501a7f340aa43be70402ead385a6
+      internalID: 2360459281734214348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_69
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1807
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1247cdd456c95fb4489619faf265f194
+      internalID: -2493824139881355678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_70
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1678
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2573e47b6ca848147bd2987784c80de7
+      internalID: 1005098894850264940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_71
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1678
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa97112b4851da46b07938101f5f41f
+      internalID: 8763374088478070500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_72
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1678
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7868f451a384ace4cbd397234a3934f1
+      internalID: -792766585469429112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_73
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1678
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04ace2022885ef45a0525d085ada232
+      internalID: 7229642687549263194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_74
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1678
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177f6f0c5814f44438a65fa96b23b42f
+      internalID: 8892273063083848685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_75
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1678
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a59321c7f2be547aca162e85329aa5
+      internalID: -137509456578797706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_76
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1678
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22de26b599dd6042a113299deb954e9
+      internalID: -8552692595272731360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_77
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1678
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc32ffdd962352a468436ba1a1ec8940
+      internalID: -1167382421481734456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_78
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1678
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0864d9912c7274499868a9b36fd2fdf
+      internalID: 2182252617155843566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_79
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1678
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d24e27d1afb87a49944bf1c60d2a542
+      internalID: 4191783423811548867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1549
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751d2a23c74465f4cbc360dc138a9e2b
+      internalID: 5147409215582145277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_81
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1549
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff026542372b134682a2f3a49ed6083
+      internalID: 8842773283745218780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_82
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1549
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa578ca65e5d8d43a4e3aed4927160e
+      internalID: 1654083873320734627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_83
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1549
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c0dad2012d3b9419fe70d0f7066bf9
+      internalID: 1720940017882312816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_84
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1549
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55d16545b25ddb48b880b52d434532a
+      internalID: 1293864843350888465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_85
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1549
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539998109265a1547be8af299eb2ce81
+      internalID: 2969804647069682669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_86
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1549
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c15eef5160e41b4896b726d2a468963
+      internalID: -1382621675408743875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_87
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1549
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be070ff6ccd6acb47a05f9d3814d01a0
+      internalID: -8136346488767813449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_88
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1549
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc96f48fd8433e74c9032c97a09dd7b9
+      internalID: 3437807197429703675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_89
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1549
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f462b7922ffb64f80636617f3da5b1
+      internalID: 3150893444273074740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_90
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1420
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00da90e9e33a4a41a0043f164ebb3c3
+      internalID: -2173677799019219285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_91
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1420
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11aeeef0f80d1ad4ba77f321a3649e38
+      internalID: -6833277182010767629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_92
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1420
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90eab9458d638b04f815e69fae3aa80c
+      internalID: 5296396242813268578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_93
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1420
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3563fc03d8e850c4ca31e6347d3f4504
+      internalID: -9037346091755142123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_94
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1420
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef28796eaaa405f4ba0e37d4e6ab4e0a
+      internalID: 6942626005381738784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_95
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1420
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d5649a97082ed4eab295357565bcec
+      internalID: -1754952291862816573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_96
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1420
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b31d252a401ff447bb5d7ebd3ca2496
+      internalID: 4864367011350078883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_97
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1420
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfe794389a77684d90fd4f6520e4233
+      internalID: -5673985254516719545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_98
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1420
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ddf41f416a3ac4496c2c062b8583e5
+      internalID: 2824605309629282702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_99
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1420
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f266a33be2cf3b4a9a4eb5899f43acc
+      internalID: 1560556280647198218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1291
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2469e9420d039a7469490df33fb5916a
+      internalID: 3474128368996664028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_101
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1291
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045f318956a713441a752cd0a0ac2222
+      internalID: -3251415995959997434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_102
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1291
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcd08b69664b764e9214d9a4ead15ab
+      internalID: -3794122481177828127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_103
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1291
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c3db91c49a47246b34d5b533a4065d
+      internalID: -588762729788871685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_104
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1291
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0de5601b6f6a44482cfd60943e79e2
+      internalID: -5306567804573742060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_105
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1291
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630d065d6d765514b8737fbf91adb482
+      internalID: -2887750937716604231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_106
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1291
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5043a46e93383484cb0f7d9a83685a9e
+      internalID: -2812318682745639982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_107
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1291
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337884aa9c8bc8c48bab79c6fd5b8bca
+      internalID: 2622246013911532683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_108
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1291
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243c0892b2e4ce9449ed1e40c4673169
+      internalID: 3554468444359721696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_109
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1291
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829c586363f46a74586a617b4a4a5d7b
+      internalID: 1610474276242186000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_110
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1162
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcd9d6ff3108784caa3c874b8b2bde5
+      internalID: -5200904281478630655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_111
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1162
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e58dc4b06521a4eae1d4ebb4d87a66
+      internalID: 7351300786481401260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_112
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1162
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc1d7777b83dbb49bbb88e561aa5c58
+      internalID: 1404729290302803792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_113
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1162
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ccebb1545822f4b87ccd61d856f296
+      internalID: -6493634516292537820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_114
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1162
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f29e6104f531164ca2bf143b78622ce
+      internalID: 7350164680648516796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_115
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1162
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7ece649c207844ab786a17cc1f96ef
+      internalID: -1292183629681225543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_116
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1162
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bd639887d8ee248b38e978e78151f6
+      internalID: 2224498031767900180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_117
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1162
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d4e7ae0a0ad3a439e3db4dd11df7c7
+      internalID: 399298191429190371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_118
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1162
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace8cdcdb06f259448f81d14062f26ea
+      internalID: -6034733347524492943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_119
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1162
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061d6b0c220f4424599e39e12adb1db8
+      internalID: -3267234373352001306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_120
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1033
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b799984587e1b78419eaec546a2b8410
+      internalID: 3411260058003690102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_121
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1033
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ff5584f2bfe19469626eb9888afb6d
+      internalID: 4369867702334451643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_122
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1033
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033db9f74cf7dba469fbf1824ad98c13
+      internalID: 481305184514132182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_123
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1033
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094f61004a1dcf440bfabf694854fafe
+      internalID: -8285942648467783995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_124
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1033
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6704680ac7817754d98d5e9e1e79cd5a
+      internalID: 1820095560959128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_125
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1033
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec470b9d6d4e084aabaea0966d5dc8c
+      internalID: 6833322139113561153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_126
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1033
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de87c360f2d2fde4693279e47a7c3c91
+      internalID: 1550904989348251006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_127
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1033
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdb1b834ba7fac4cbc4254cd9e88fb4
+      internalID: 4853951941749850672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_128
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1033
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b24be58cdd52e4e99f7b3ddea462b9
+      internalID: 6379582733431618545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_129
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1033
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64db3dd19a8230e4d812f5a167a73997
+      internalID: 3257523605435507348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_130
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 904
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1026a72a04054d34fa2de582f8c494a4
+      internalID: 7961855588960568413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_131
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 904
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64570b1aaf6461343ad73f12bb5bde7f
+      internalID: -8294636336282260186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_132
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 904
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb9e337bc4f5674998f79bae9cc69c2
+      internalID: -8183055046099696299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_133
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 904
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372aecb0bd4106a47bf870669e1a743a
+      internalID: -1550885134065958625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_134
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 904
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626bd952a0622de45968b593c888f6b5
+      internalID: 22245701293633393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_135
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 904
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ef43e29ddac2f469183fcb7fe25997
+      internalID: 4890572078238375378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_136
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 904
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eac3e1bf1a241e4daa55dc49bee6f05
+      internalID: 4411480292794101180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_137
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 904
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de80f70e57a29874ebc07fa832b697da
+      internalID: 3156115345075853101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_138
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 904
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f12225b14dced41b706ea3eb4e578a
+      internalID: -3828173566376642728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_139
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 904
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2407dc3a18e7d2e47a0889dd2825e353
+      internalID: -2465284284805964073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_140
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 775
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd2d6a8d61f7f3448b83ce84335211e
+      internalID: -1336261353295261088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_141
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 775
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5bea24aeb698949aad46d1da1d89c3
+      internalID: 2758781403512987531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_142
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 775
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5289df129d61f4e9b9207e9efda673
+      internalID: -7804411326345653666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_143
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 775
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b056d52883a494c47b98cf0ccbc9d340
+      internalID: -9018387089203019340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_144
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 775
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c254236a6ff8e05499ae52af748f8d8c
+      internalID: -7649848581708436728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_145
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 775
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117cde65c46751843b6e65ed42b0b985
+      internalID: -5589032655354214882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_146
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 775
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a295226125b5504da6d64efa7109554
+      internalID: -3768993845402704848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_147
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 775
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c848c23cbbc3c1345a5f798ce47a17a8
+      internalID: -2005441232808423799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_148
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 775
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e441f960bb478a49910e576cdcc9945
+      internalID: -3455915133259670360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_149
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 775
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48dd6e5d2f658e469aa2350afa94140
+      internalID: 8059059574857644997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_150
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 646
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ea2dd720dea3b4fac319157c6181e5
+      internalID: -2902665902936748305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_151
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 646
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e279b244812974740a5125929045bd46
+      internalID: -348831521100760665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_152
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 646
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9766729be708b4d895e3ed6c57c280
+      internalID: -5857765370329866986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_153
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 646
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c63fd8767c64940a77a312def0949a
+      internalID: -6383842102899281005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_154
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 646
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52988be39dd199442bc5d06f51c1f95a
+      internalID: -5132720374646103153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_155
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 646
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b91496a9e35c843a2a196b66269664
+      internalID: 2950356003988244126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_156
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 646
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42257348a9921244916f83f83b1f2d0
+      internalID: 1663065377481776454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_157
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 646
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b49e91206fbc554f9b9fdd07ed06dce
+      internalID: 326861879436637029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_158
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 646
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655f743ce9eb7494c8b5fe586a69b9f5
+      internalID: 2514226571046349153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_159
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 646
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58516db82fb8c124dbbe3278bc02ed35
+      internalID: 2963096322316038214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_160
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 517
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087e04047dd31a646b6f21842e949353
+      internalID: -2353537855454592606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_161
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 517
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693d8dcb81164594ea349e507ec460e7
+      internalID: -897278795412784631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_162
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 517
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a3c52a8954d054dbe541629e13660e
+      internalID: -3617263282371434662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_163
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 517
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5b36dc7f6422d40a58a99be919a993
+      internalID: -4487919156346525000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_164
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 517
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec743671bc7f4b40bc8377aac481089
+      internalID: -4390122579515813289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_165
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 517
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbb8370b89793c4da60d46391e28426
+      internalID: -3707303287749253078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_166
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 517
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf35b078b46d6d94385c25b1f4968966
+      internalID: 429965936104041857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_167
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 517
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a05e6efff14f3844a3509574f3a8fe0
+      internalID: 9132928684894505257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_168
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 517
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fa3e4a7a75c7f49af8004ee15ae3c2
+      internalID: 3905828657405420415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_169
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 517
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cde15457f48e8c429d9c40d2b9e5f79
+      internalID: 534942791521763201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_170
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 388
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effdefcec6446834e93143b22f86e95a
+      internalID: -4118551300430959522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_171
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 388
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de60aa2c744765b42bd5cec48941b20e
+      internalID: -5179654227016416112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_172
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 388
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9dee8ad51943a409795008506055fe
+      internalID: 1779897481509535804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_173
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 388
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8917595dc89e3a44fb674baf4ffcf08b
+      internalID: 1325161328440343037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_174
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 388
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab455ae6487980344a361a8138c16f4f
+      internalID: 81793496901326571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_175
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 388
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53786990b4fd74346b42f26375d713f9
+      internalID: 4312560425831857206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_176
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 388
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb354235849a51846b42188f44980e81
+      internalID: 6393313577251288178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_177
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 388
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca22dbb925798a841827ed4bfea7f317
+      internalID: -7288156606481250421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_178
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 388
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a108c5755600bdf4bbed34fd29a6fb9a
+      internalID: 8062153153165014030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_179
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 388
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159114a5040d5ab448f829eed85233ba
+      internalID: 933140755357686488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_180
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 259
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2b082d5e4cea84ab6714adf0dcd365
+      internalID: 7616084769715617596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_181
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 259
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0ef7130b8ac9546a8da836843c9a91
+      internalID: -5506021108859125208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_182
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 259
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a79a8ae1f44764cbc65ea8d0883cbd
+      internalID: -8464689827366432834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_183
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 259
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b139114e041eb6e4fabad19e622ec4d7
+      internalID: 249678107279583629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_184
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 259
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61169a0d4fd00d94489133b071161146
+      internalID: -7687363742826525577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_185
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 259
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd18cc32063003b4bb50cb197ed7cc0f
+      internalID: 8340824707077714924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_186
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 259
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da6d374f98fd134db00278a31646844
+      internalID: 7450911254483604615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_187
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 259
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69273de4c2053c4b9bd3ccfce513dc5
+      internalID: 394568732662835048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_188
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 259
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda852c259b6e2344b255fd7162490c4
+      internalID: -2155008324817842345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_189
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 259
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcb93db423a1594c96615dad1503fdc
+      internalID: 7524104691252552573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_190
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 130
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aee23637ceb020489697997644d6804
+      internalID: 774846617796088517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_191
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 130
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95997a31bfcfa8f4a9813528f9f6443a
+      internalID: 1253505880140668673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_192
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 130
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b203af9c8839fdd4ab84a48dc17c4907
+      internalID: 5206331701168594580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_193
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 130
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cae85108872c249980c9144b3f4056
+      internalID: -7321000092201744207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_194
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 130
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2937e5015701640a7c8b315f26274a
+      internalID: -4917282328365611379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_195
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 130
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafaceb0432112143921883d54fc0902
+      internalID: -1805741830149251806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_196
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 130
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a9d690444b82742b4e5382e347ccd5
+      internalID: -6997226020572884000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_197
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 130
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554720cae03c62342b6aa807257a56aa
+      internalID: -2980338427026101315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_198
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 130
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7e2757c35e69647b708252d11bbf32
+      internalID: 1054838642039798133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_199
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 130
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccb86ae323e307478e8f310d34f8521
+      internalID: -5878297108991702401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_200
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dd84c3fc352c64099249a3e28278d7
+      internalID: 3504885402248953890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_201
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bafece18c70d348b4abe7e8c3c0ce0
+      internalID: -8072340986362989248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_202
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce44571c89903c4180bd55c31050712
+      internalID: 5543965989636060843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_203
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5103255eb64ae65479c5be1cf921419e
+      internalID: -7983153867638387987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_204
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb8004c8ed95184294da69a46164205
+      internalID: -2665339336934668309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_205
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6694096fc4124e4898239f8f3e00564
+      internalID: -355253983626567123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_206
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371605a7e0aec4e488274b3dca6c9a14
+      internalID: 3759884360056269437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_207
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73820940b6f1faa438c595cebf5e2079
+      internalID: -2568302650101837031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_208
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9e6e35dcb8b2a46b0024892e033988
+      internalID: 3838874451961109835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet1stGenShiny_209
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8423e63319c602449a5d0414d578e8e1
+      internalID: -3616188702968385290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
